@@ -186,7 +186,24 @@ ul { list-style: none; }
 .eyebrow { display: block; margin-bottom: 14px; opacity: .8; }
 
 /* ---------- hero ---------- */
-.hero { background: var(--cobalt); color: var(--cobalt-ink); overflow: hidden; }
+.hero { background: var(--cobalt); color: var(--cobalt-ink); overflow: hidden; transition: background-color .45s cubic-bezier(.22,1,.36,1), color .45s cubic-bezier(.22,1,.36,1); }
+/* The big button switches the hero to the colour pairs of the apps:
+   cobalt (Caffeine), red (Lafbekken), orange (NotNow), mint (Chores) */
+.hero[data-scheme="red"]    { background: var(--red);    color: var(--red-ink); }
+.hero[data-scheme="orange"] { background: var(--orange); color: var(--orange-ink); }
+.hero[data-scheme="mint"]   { background: var(--mint);   color: var(--mint-ink); }
+.hero[data-scheme="red"] .hero__text strong,
+.hero[data-scheme="orange"] .hero__text strong,
+.hero[data-scheme="mint"] .hero__text strong { color: inherit; }
+.hero[data-scheme="red"] .btn--soft,
+.hero[data-scheme="orange"] .btn--soft,
+.hero[data-scheme="mint"] .btn--soft { --btn-bg: rgba(20, 18, 16, .12); --btn-fg: currentColor; }
+.hero[data-scheme="mint"] .btn { --btn-bg: var(--mint-ink); --btn-fg: var(--mint); --btn-side: var(--ink); }
+.hero[data-scheme="mint"] .btn--soft { --btn-bg: rgba(20, 18, 16, .12); --btn-fg: var(--mint-ink); }
+.hero[data-scheme="orange"] .btn { --btn-bg: var(--orange-ink); --btn-fg: var(--orange); --btn-side: var(--ink); }
+.hero[data-scheme="orange"] .btn--soft { --btn-fg: var(--orange-ink); }
+.hero[data-scheme="red"] .btn--soft { --btn-fg: var(--red-ink); }
+@media (prefers-reduced-motion: reduce) { .hero { transition: none; } }
 .hero__in {
   display: grid; grid-template-columns: 1.25fr 1fr; align-items: center; gap: clamp(24px, 5vw, 64px);
   padding-top: clamp(48px, 8vw, 96px); padding-bottom: clamp(56px, 9vw, 112px);
