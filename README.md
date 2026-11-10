@@ -25,5 +25,7 @@ Open app.js. Everything you need is at the top:
 - Idea box: without formEndpoint it opens the visitor's mail app. For a real form,
   create a free form at formspree.io and paste its URL in SITE.formEndpoint.
 
-## Hosting
-Any static host works (GitHub Pages, Netlify, Cloudflare Pages). Upload the whole folder.
+## Hosting on GitHub Pages
+1. Put everything in this folder in the root of the repository (index.html at the top level).
+2. Settings > Pages > Deploy from a branch > main, / (root) > Save.
+3. Updating later: replace the changed files (usually app.js plus a new icon in assets/icons/).

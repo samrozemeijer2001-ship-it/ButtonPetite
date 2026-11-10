@@ -113,6 +113,51 @@ const APPS = [
         "The caffeine numbers are estimates and not medical advice."
       ]
     }
+  },
+  {
+    id: "notnow",
+    name: "NotNow",
+    pair: "orange",
+    status: "beta",
+    icon: "assets/icons/notnow.png",
+    tagline: "Get it out of your head. I'll remember it.",
+    text: "A thought pops up while you're busy? Throw it on a card, type it or just say it, and get back to what you were doing. Later you find everything back in your Thought Bank, with the important stuff on top.",
+    platforms: ["Web app", "iPhone", "Android"],
+    language: "English",
+    links: {
+      appStore: "",
+      googlePlay: "",
+      web: ""                  // PLACEHOLDER: paste the NotNow web app link (GitHub Pages)
+    },
+    features: [
+      "Capture a thought in seconds, by typing or with your voice",
+      "Mark what's important, so it stays on top",
+      "Set a reminder for today or tomorrow",
+      "A daily recap of what's still waiting for you",
+      "Done thoughts clean themselves up the next day",
+      "Works offline and without an account"
+    ],
+    faq: [
+      { q: "How do I put NotNow on my home screen?", a: "iPhone: open the link in Safari, tap the share button and choose Add to Home Screen. Android: open the link in Chrome, tap the menu and choose Install app. Then open NotNow from your home screen." },
+      { q: "Why don't I get reminders on my lock screen?", a: "Lock screen reminders need iOS 16.4 or newer, and only work when you open NotNow from your home screen, not from Safari. Then go to Settings and turn on Notifications. On Android it works in Chrome." },
+      { q: "Where did my done thoughts go?", a: "Thoughts you mark as done stay for the rest of the day and are cleaned up the next day. That's on purpose: a fresh start every morning." },
+      { q: "Voice input doesn't work. What now?", a: "Voice uses the speech recognition of your browser. It works in Safari and Chrome, not in Firefox, and sometimes not in an app on the iPhone home screen. You can always just type." },
+      { q: "I added NotNow to my home screen and my thoughts are gone.", a: "Nothing is lost. On iPhone the home screen app has its own storage, separate from Safari. Your old thoughts are still in Safari." },
+      { q: "Is it finished?", a: "Not yet, it's a beta. Most things work, some things I'm still building. If something breaks, nothing at the hand: send me a message and I'll fix it." }
+    ],
+    privacy: {
+      summary: "Your thoughts stay on your phone. Only if you turn on lock screen reminders, a copy goes to my reminder server, and turning them off deletes it again.",
+      points: [
+        "No account, no ads, no analytics and no tracking.",
+        "Your thoughts, places and settings are stored only in your browser on your own device.",
+        "Lock screen reminders and the daily recap are optional. When you turn them on, a copy of your thoughts (text, important, done, reminder times), your recap schedule and your time zone is sent to my reminder server, so it can send the notification at the right moment. Your places are not sent.",
+        "Turn Notifications off in Settings and that copy is deleted from the server.",
+        "Use my current location only asks your phone for your position when you tap it. It's used inside the app and not sent to me.",
+        "Voice input uses the speech recognition of your browser (Apple or Google). What you say is handled by them, not by me.",
+        "The app loads its font from Google Fonts, so Google can see that the app was opened.",
+        "Clear the app's site data or remove it from your home screen and everything on your device is gone."
+      ]
+    }
   }
 ];
 
@@ -211,7 +256,7 @@ function pageHome() {
       <div class="in">
         <span class="meta eyebrow">Hi, welcome</span>
         <h1 class="disp hero__title">Tiny apps,<br><span class="tag">made</span> for fun</h1>
-        <p class="hero__text">I'm just a guy who likes messing around with apps. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores and whatever comes next. No company, no team, bugs included.</p>
+        <p class="hero__text">I'm just a guy who likes messing around with apps. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
         <div class="btn-row">
           <a class="btn" href="#/apps">See my apps ${ICON.arrow}</a>
           <a class="btn btn--soft" href="#/ideas">Send an idea</a>
