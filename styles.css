@@ -13,6 +13,8 @@
 @font-face { font-family: "Rubik"; font-weight: 800; font-display: swap; src: url("assets/fonts/rubik-latin-800-normal.woff2") format("woff2"); }
 
 :root {
+  /* white edge around app logos, for contrast with coloured backgrounds */
+  --logo-edge: #ffffff;
   /* brand tokens */
   --ink: #141210;
   --paper: #fff6ea;
@@ -242,9 +244,10 @@ ul { list-style: none; }
 }
 .card { -webkit-tap-highlight-color: transparent; -webkit-touch-callout: none; }
 .card__top { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
-.card__icon { display: block; width: 84px; height: 84px; min-width: 84px; max-width: 84px; border-radius: 22px; flex: none; background: var(--t09); object-fit: cover; }
+.card__icon { display: block; width: 84px; height: 84px; min-width: 84px; max-width: 84px; border-radius: 22px; flex: none; background: var(--t09); object-fit: cover; box-shadow: 0 0 0 5px var(--logo-edge); margin: 5px; }
 .card__top { min-width: 0; }
-.card__name { min-width: 0; overflow-wrap: anywhere; }
+.card__name { min-width: 0; overflow-wrap: normal; hyphens: none; font-size: clamp(36px, 3.4vw, 46px) !important; }
+@media (max-width: 640px) { .card__name { font-size: 40px !important; } }
 .card__name { font-size: 46px; }
 .card__tagline { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 10px; }
 .card__text { font-size: 16px; font-weight: 400; margin-bottom: 18px; }
@@ -275,7 +278,7 @@ ul { list-style: none; }
   box-shadow: 0 7px 0 var(--side); transform: rotate(-4deg); margin-bottom: 8px;
 }
 .soon-card__tile .face { width: 70%; }
-.soon-card__tile img { width: 100%; height: 100%; border-radius: 22px; object-fit: cover; }
+.soon-card__tile img { width: 100%; height: 100%; border-radius: 22px; object-fit: cover; box-shadow: 0 0 0 5px var(--logo-edge); }
 .soon-card__name { font-size: 36px; }
 .soon-card p { font-size: 16px; }
 
@@ -322,7 +325,7 @@ ul { list-style: none; }
   padding: calc(var(--s) * .08);
   justify-self: start; align-self: center;
   border-radius: calc(var(--s) * .26);
-  background: var(--paper); box-shadow: 0 12px 0 var(--side);
+  background: var(--logo-edge); box-shadow: 0 12px 0 var(--side);
   transform: rotate(-4deg);
 }
 .apphero__icon img {
@@ -347,6 +350,19 @@ ul { list-style: none; }
 .prose a { font-weight: 700; text-underline-offset: 3px; }
 .block + .block { margin-top: clamp(36px, 5vw, 56px); }
 
+.prose p.lead { font-size: clamp(18px, 2vw, 21px); font-weight: 600; line-height: 1.45; }
+.why { background: var(--bg); color: var(--fg); border-radius: var(--r-lg); padding: clamp(22px, 3vw, 32px); box-shadow: 0 10px 0 var(--side); margin-bottom: 10px; }
+.why h2 { margin-bottom: 12px; }
+.why p { font-size: 18px; font-weight: 600; line-height: 1.5; }
+.cando { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 14px; }
+.cando li { background: var(--t06); border-radius: var(--r-md); padding: 18px; }
+.cando__n {
+  display: inline-grid; place-items: center; min-width: 40px; height: 34px; padding: 0 8px; margin-bottom: 12px;
+  border-radius: 10px; background: var(--bg); color: var(--fg);
+  font-family: var(--display); font-weight: 900; font-size: 22px; line-height: 1;
+}
+.prose .cando h3 { font-family: var(--display); font-weight: 900; text-transform: uppercase; font-size: 26px; line-height: .95; margin: 0 0 8px; }
+.prose .cando p { font-size: 16px; }
 .faq { display: grid; gap: 10px; }
 .faq details { background: var(--t06); border-radius: var(--r-md); }
 .faq summary {
@@ -420,7 +436,7 @@ ul { list-style: none; }
   .apphero__in { grid-template-columns: 1fr; }
   .apphero__icon { --s: 112px; margin: 8px 0 8px 6px; box-shadow: 0 8px 0 var(--side); }
   .card__name { font-size: 40px; }
-  .card__icon { width: 72px; height: 72px; min-width: 72px; max-width: 72px; border-radius: 19px; }
+  .card__icon { width: 72px; height: 72px; min-width: 72px; max-width: 72px; border-radius: 19px; box-shadow: 0 0 0 4px var(--logo-edge); }
   .btn { font-size: 22px; }
   .btn-row .btn { flex: 1 1 auto; }
   .foot__cols { grid-template-columns: 1fr 1fr; }

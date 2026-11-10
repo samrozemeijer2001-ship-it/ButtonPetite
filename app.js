@@ -9,6 +9,9 @@
    3. Done. The app gets a card on the home page, its own page with help,
       FAQ and privacy (#/apps/<id>), and a link in the footer.
 
+   Optional text fields: `goal` (why I made it), `cando` (what you can do,
+   a list of { title, text }), `faq`, `privacy`, `screens`.
+
    Ideas that are not real apps yet go in COMING_SOON.
    When an app goes live, move it from COMING_SOON to APPS.
 
@@ -45,8 +48,9 @@ const APPS = [
     status: "live",
     icon: "assets/icons/lafbekken.png",
     tagline: "A party game for one phone. Do you play it safe?",
-    text: "Every turn you pick LAF (play it safe) or LEF (all or nothing). LAF is safe, until you pick it too often. LEF is always fifty-fifty, and the stakes go up every time.",
-    platforms: ["iPhone"],
+    text: "Pass one phone around the table. Every turn you pick LAF and play it safe, or LEF and go all in. The braver the table gets, the wilder it gets.",
+    goal: "Game nights always ended with the same three games and the same discussion about the rules. I wanted something you can start in ten seconds, with one phone and zero setup, that gets more exciting the longer you play. LAF is Dutch for cowardly, LEF means guts. So every turn there's only one question: are you a chicken or are you brave?",
+    platforms: ["iPhone", "Web app"],
     age: "18+",
     language: "English, Dutch",
     links: {
@@ -55,26 +59,32 @@ const APPS = [
       web: "https://samrozemeijer2001-ship-it.github.io/Lafbekken/",
       repo: "https://github.com/samrozemeijer2001-ship-it/Lafbekken"
     },
-    features: [
-      "One phone, passed around the table",
-      "Two choices every turn: LAF or LEF",
-      "Rounds get more exciting the braver you are",
-      "No account needed"
+    cando: [
+      { title: "Play it safe, or don't", text: "LAF is safe, until you pick it too often. Every LAF in a row makes the next one riskier. LEF is always fifty-fifty, but the stakes go up every time." },
+      { title: "Feel the heat rise", text: "Every brave choice turns up the heat. The colours and the mood of the game change with it, all the way to level 10." },
+      { title: "Double or nothing", text: "Win a LEF when things are already hot and you might get the chance to go double. Win, and two other players get a penalty. Lose, and it's on you." },
+      { title: "Rule cards, powers and forces", text: "Some cards stay on the table for a while and change the rules. Powers you play when it suits you. Forces block one choice for someone's next turn." },
+      { title: "124 cards, plus your own", text: "The game comes with 124 cards. You can change them, add your own and pick your own words for the small and the big penalty." },
+      { title: "Dutch or English", text: "Switch language on the start screen. Each language has its own set of cards." },
+      { title: "Pick up where you left off", text: "Close the app in the middle of a game and it's still there when you come back. It works without internet too." }
     ],
     faq: [
-      { q: "How do I play?", a: "Pass the phone around. On your turn, pick LAF to play it safe or LEF to go all in. The app tells you what happens next. That's it, go your gang." },
+      { q: "How do I play?", a: "Type in the names, then pass the phone around. On your turn, pick LAF to play it safe or LEF to go all in. The app tells you what happens next. That's it, go your gang." },
       { q: "How many players do I need?", a: "Two or more. It gets more fun with a full table." },
-      { q: "Why is it 18+?", a: "Some challenges are meant for adults. Please play responsibly and never push anyone to do something they don't want to do." },
-      { q: "What do LAF and LEF mean?", a: "They're Dutch. LAF means cowardly, LEF means guts. So every turn the question is simple: are you a chicken or are you brave?" },
-      { q: "Something doesn't work. What now?", a: "Send me a message with what you did and what went wrong (and which phone you use). I fix bugs as fast as my evenings allow." }
+      { q: "Why is it 18+?", a: "Some cards are meant for adults. At the start of every game, the person holding the phone fills in their birth year. Please play responsibly and never push anyone to do something they don't want to do." },
+      { q: "Can I make my own cards?", a: "Yes. Go to Manage cards to change or add cards, and pick your own penalty words in the settings. Want the original cards back? There's a reset button at the bottom." },
+      { q: "Are the English cards finished?", a: "Almost. The Dutch cards came first, the English ones are newer. If a card sounds weird, send it to me and I'll fix it." },
+      { q: "Something doesn't work. What now?", a: "Send me a message with what you did, what went wrong and which phone you use. I fix bugs as fast as my evenings allow." }
     ],
     privacy: {
-      // CHECK: make sure this matches what the app really does before you publish.
-      summary: "Lafbekken doesn't collect any personal data. No account, no tracking, no ads.",
+      // Based on privacy.html in the Lafbekken repository (10 November 2026).
+      summary: "Lafbekken doesn't collect any personal data. No account, no ads, no tracking. The web version only counts, anonymously, how often the game is played.",
       points: [
-        "The game runs on your phone. Player names you type in stay on your phone.",
-        "I don't collect, store or sell any personal data.",
-        "No analytics, no advertising and no tracking SDKs.",
+        "Player names, your own cards, your penalty words and your language stay on your phone. Remove the app and they're gone.",
+        "Your birth year is only used for the 18+ check at the start of a game. It's not saved and not sent anywhere.",
+        "The web version uses GoatCounter to count how often the game is opened and started. No cookies, no IP addresses, nothing personal. In the iPhone app this counter is off.",
+        "No ads, and no tracking across other apps or websites.",
+        "Apple may collect anonymous crash reports if you allowed that in your iPhone settings. Apple's own privacy policy applies to that.",
         "If you e-mail me, I only use your e-mail to answer you."
       ]
     }
@@ -86,31 +96,40 @@ const APPS = [
     status: "building",
     icon: "assets/icons/caffeine.png",
     tagline: "How much caffeine is still in your tank?",
-    text: "One tap logs a drink. The tank shows an estimate of how much caffeine is still in your system, so you know if coffee number four is a good idea.",
+    text: "Log a coffee, tea or energy drink in one tap and watch the tank slowly empty during the day. It shows an estimate of how much caffeine is still in your system, and whether the next one will keep you up tonight.",
+    goal: "I drink a lot of coffee. Like, a lot. At some point I started wondering why I was lying awake at midnight after \"just one more\" at four o'clock. Caffeine stays in your body for hours, but you can't feel how much is left. So I made a tank that shows it. Not to tell you to stop, just so you know what's going on. The first version said I had more coffee in me than blood. I thought I saw water burning. That's fixed now.",
     platforms: ["Web app"],
+    language: "English",
     links: {
       appStore: "",
       googlePlay: "",
       web: "https://samrozemeijer2001-ship-it.github.io/BakkiePleur/",
       repo: "https://github.com/samrozemeijer2001-ship-it/BakkiePleur"
     },
-    features: [
-      "Log a coffee, tea or energy drink in one tap",
-      "A tank that slowly empties during the day",
-      "Set your own daily limit",
-      "Everything stays on your phone"
+    cando: [
+      { title: "Log a drink in one tap", text: "Save your usual drinks as favourites and log them with one tap. Forgot one this morning? Add it with the right time, or for an earlier day." },
+      { title: "Watch the tank empty", text: "Every drink slowly fades out of the tank during the day. One regular coffee fills about a third of it." },
+      { title: "Ask \"what if?\"", text: "Thinking about another coffee? See what it would do to your tank tonight, without logging it." },
+      { title: "Protect your sleep", text: "Set your bedtime, a daily limit and a time after which you'd rather stop. The app gives you a heads-up in the half hour before." },
+      { title: "A morning recap", text: "The next morning you see how much caffeine was still in you at bedtime, and you can note how you slept." },
+      { title: "A fun fact and a myth a day", text: "Every day you get one fun fact and one myth about caffeine, each with its sources. Flip them, and save the ones you like." },
+      { title: "Your week at a glance", text: "The history shows your whole week, so you can see which days got a bit out of hand." },
+      { title: "Your own backup", text: "Everything stays on your phone. Save a backup file now and then, and put it back whenever you need it." }
     ],
     faq: [
-      { q: "How does it know how much caffeine is left?", a: "It uses the average time your body needs to break caffeine down. It's an estimate, not medical advice. Everybody is different." },
-      { q: "Can I add my own drinks?", a: "Yes. You can add a drink with its own amount of caffeine." },
-      { q: "Where is my data stored?", a: "Only on your own device. Nothing goes to a server." },
+      { q: "How does it know how much caffeine is left?", a: "It uses the average time your body needs to break caffeine down, about five hours for half of it. Every drink fades on its own and the app adds them up. It's an estimate, not medical advice. Everybody is different." },
+      { q: "Can I add my own drinks?", a: "Yes. Log a drink with its own amount of caffeine and save it as a favourite, so next time it's one tap." },
+      { q: "Do I get a reminder before my cutoff time?", a: "Yes, on the home screen of the app in the half hour before. Notifications on your phone only work while the app is open or in the background. On iPhone, add it to your home screen first." },
+      { q: "Where is my data stored?", a: "Only on your own device. Nothing goes to a server. Safari can clear the data of web apps you haven't opened in a long time, so save a backup file every now and then." },
       { q: "Is it free?", a: "Yes." }
     ],
     privacy: {
       summary: "Caffeine keeps everything on your phone. Nothing is sent to me or anyone else.",
       points: [
-        "The drinks you log are stored only on your device.",
+        "The drinks you log, your sleep settings and your saved cards are stored only on your device.",
         "No account, no analytics, no ads, no tracking.",
+        "A backup file is only made when you ask for it, and it stays with you.",
+        "The source links on the fact cards open the original websites. Only then do you leave the app.",
         "Remove the app or clear its data and everything is gone.",
         "The caffeine numbers are estimates and not medical advice."
       ]
@@ -123,7 +142,8 @@ const APPS = [
     status: "beta",
     icon: "assets/icons/notnow.png",
     tagline: "Get it out of your head. I'll remember it.",
-    text: "A thought pops up while you're busy? Throw it on a card, type it or just say it, and get back to what you were doing. Later you find everything back in your Thought Bank, with the important stuff on top.",
+    text: "A thought pops up while you're busy? Throw it on a card, type it or just say it, and swipe it away. NotNow keeps it safe until you have time, and nudges you when it matters.",
+    goal: "My head works like a browser with forty tabs open. While I'm doing one thing, five other things pop up: call the plumber, that book title, buy oat milk. If I don't write them down, they're gone. If I do, I lose my focus. With the hand on the heart, I made NotNow for myself first. Get the thought out of your head in a few seconds, then get back to what you were doing. The app remembers it, so you don't have to.",
     platforms: ["Web app", "iPhone", "Android"],
     language: "English",
     links: {
@@ -138,17 +158,20 @@ const APPS = [
       "assets/screens/notnow-3.png",
       "assets/screens/notnow-4.png"
     ],
-    features: [
-      "Capture a thought in seconds, by typing or with your voice",
-      "Mark what's important, so it stays on top",
-      "Set a reminder for today or tomorrow",
-      "A daily recap of what's still waiting for you",
-      "Done thoughts clean themselves up the next day",
-      "Works offline and without an account"
+    cando: [
+      { title: "Capture in seconds", text: "Type your thought on a card, or press the big yellow button and just say it, in English or Dutch. Swipe right to keep it, left to let it go." },
+      { title: "Mark what matters", text: "Star a thought and it stays on top of your Thought Bank, so the important stuff never sinks." },
+      { title: "Get a nudge at the right time", text: "Drag the clock to the hour you want, for today or tomorrow. With lock screen reminders on, the nudge comes even when the app is closed." },
+      { title: "Add a place", text: "Tag a thought with a place, like home, the office or the laundromat, so you know where it belongs." },
+      { title: "Your Thought Bank", text: "Everything you kept, in one place. Search it, open a card, mark it done, pin it or let it go." },
+      { title: "A daily recap", text: "Pick a time for each day of the week. Until then a little sun counts down. Then you see what's still waiting, what's coming up and what you finished today." },
+      { title: "A fresh start every morning", text: "Thoughts you mark as done stay for the rest of the day and clean themselves up overnight." },
+      { title: "No account, works offline", text: "Open it once and it keeps working without internet. There's nothing to sign up for. There's a dark mode too." }
     ],
     faq: [
       { q: "How do I put NotNow on my home screen?", a: "iPhone: open the link in Safari, tap the share button and choose Add to Home Screen. Android: open the link in Chrome, tap the menu and choose Install app. Then open NotNow from your home screen." },
       { q: "Why don't I get reminders on my lock screen?", a: "Lock screen reminders need iOS 16.4 or newer, and only work when you open NotNow from your home screen, not from Safari. Then go to Settings and turn on Notifications. On Android it works in Chrome." },
+      { q: "Can it remind me when I arrive somewhere?", a: "Not yet. A web app isn't allowed to check where you are in the background, so places are a label for now. I'm looking for a way around it." },
       { q: "Where did my done thoughts go?", a: "Thoughts you mark as done stay for the rest of the day and are cleaned up the next day. That's on purpose: a fresh start every morning." },
       { q: "Voice input doesn't work. What now?", a: "Voice uses the speech recognition of your browser. It works in Safari and Chrome, not in Firefox, and sometimes not in an app on the iPhone home screen. You can always just type." },
       { q: "I added NotNow to my home screen and my thoughts are gone.", a: "Nothing is lost. On iPhone the home screen app has its own storage, separate from Safari. Your old thoughts are still in Safari." },
@@ -266,7 +289,7 @@ function pageHome() {
       <div class="in">
         <span class="meta eyebrow">Hi, welcome</span>
         <h1 class="disp hero__title">Tiny apps,<br><span class="tag">made</span> for fun</h1>
-        <p class="hero__text">A out of the hand gewalkde hobby. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
+        <p class="hero__text">I'm just a guy who likes messing around with apps. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
         <div class="btn-row">
           <a class="btn" href="#/apps">See my apps ${ICON.arrow}</a>
           <a class="btn btn--soft" href="#/ideas">Send an idea</a>
@@ -395,8 +418,10 @@ function pageApp(app) {
   <section class="section">
     <div class="wrap detail">
       <div class="prose" style="--accent:var(--${esc(app.pair)})">
-        ${app.text ? `<div class="block"><h2>About</h2><p>${esc(app.text)}</p>
-          ${app.features?.length ? `<ul class="dots">${app.features.map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}</div>` : ""}
+        ${app.text ? `<div class="block"><h2>About</h2><p class="lead">${esc(app.text)}</p></div>` : ""}
+        ${app.goal ? `<div class="block why" data-pair="${esc(app.pair)}"><h2>Why I made it</h2><p>${esc(app.goal)}</p></div>` : ""}
+        ${app.cando?.length ? `<div class="block"><h2>What you can do</h2><ol class="cando" data-pair="${esc(app.pair)}">${app.cando.map((c, i) => `<li><span class="cando__n" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><h3>${esc(c.title)}</h3><p>${esc(c.text)}</p></li>`).join("")}</ol></div>` : ""}
+        ${app.features?.length ? `<div class="block"><ul class="dots">${app.features.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}
         ${app.screens?.length ? `<div class="block"><h2>Screens</h2><div class="shots">${app.screens.map(s => `<img src="${esc(s)}" alt="" loading="lazy">`).join("")}</div></div>` : ""}
         ${app.faq?.length ? `<div class="block" id="faq"><h2>Questions</h2><div class="faq">${app.faq.map(f => `<details><summary>${esc(f.q)}</summary><div class="faq__a"><p>${esc(f.a)}</p></div></details>`).join("")}</div></div>` : ""}
       </div>
