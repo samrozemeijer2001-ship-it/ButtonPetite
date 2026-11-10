@@ -27,9 +27,9 @@
 
 const SITE = {
   name: "Button Petite",
-  domain: "buttonpetite.com",              // PLACEHOLDER: domain not checked yet
-  email: "hello@buttonpetite.com",         // PLACEHOLDER: general / ideas
-  supportEmail: "support@buttonpetite.com",// PLACEHOLDER: help with an app
+  domain: "buttonpetite.com",              // registered at TransIP, 10 November 2026
+  email: "hello@buttonpetite.com",         // general / ideas (forwarded via TransIP)
+  supportEmail: "support@buttonpetite.com",// help with an app (forwarded via TransIP)
   // Optional: paste a form endpoint (for example from formspree.io) to receive
   // ideas without opening the visitor's mail app. Empty = the form opens an e-mail.
   formEndpoint: "",
@@ -289,7 +289,7 @@ function pageHome() {
       <div class="in">
         <span class="meta eyebrow">Hi, welcome</span>
         <h1 class="disp hero__title">Tiny apps,<br><span class="tag">made</span> for fun</h1>
-        <p class="hero__text">I'm just a guy who likes messing around with apps. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
+        <p class="hero__text">An out the hand gewalkte hobby. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
         <div class="btn-row">
           <a class="btn" href="#/apps">See my apps ${ICON.arrow}</a>
           <a class="btn btn--soft" href="#/ideas">Send an idea</a>
