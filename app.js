@@ -289,7 +289,7 @@ function pageHome() {
       <div class="in">
         <span class="meta eyebrow">Hi, welcome</span>
         <h1 class="disp hero__title">Tiny apps,<br><span class="tag">made</span> for fun</h1>
-        <p class="hero__text">I'm just a guy who likes messing around with apps. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
+        <p class="hero__text">A out of the hand gewalkte hobby. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
         <div class="btn-row">
           <a class="btn" href="#/apps">See my apps ${ICON.arrow}</a>
           <a class="btn btn--soft" href="#/ideas">Send an idea</a>
