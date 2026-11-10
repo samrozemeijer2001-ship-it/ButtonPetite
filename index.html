@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Button Petite: tiny apps, made for fun</title>
+  <meta name="description" content="Button Petite is where I put the tiny apps I make for fun. Party games, coffee math and more. Help, privacy info and a place to send your ideas.">
+  <meta name="theme-color" content="#2747c9">
+  <meta property="og:title" content="Button Petite: tiny apps, made for fun">
+  <meta property="og:description" content="Tiny apps I make for fun, with help, privacy info and a place to send your ideas.">
+  <meta property="og:image" content="assets/share-image.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/share-image.png">
+  <link rel="preload" href="assets/fonts/barlow-condensed-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/rubik-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top" id="top">
+    <div class="wrap top__in">
+      <a class="brand" href="#/" aria-label="Button Petite, home">
+        <span class="brand__mark" data-face="happy" data-pair="yellow" aria-hidden="true"></span>
+        <span class="brand__name">Button <span class="brand__tag">Petite</span></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/apps">Apps</a>
+        <a href="#/soon">Coming soon</a>
+        <a class="nav__cta" href="#/ideas">Send an idea</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- app.js renders the current page in here -->
+    <noscript>
+      <div class="wrap noscript">
+        <h1 class="disp">Button Petite</h1>
+        <p>This site needs JavaScript to show my apps. You can always reach me at <a href="mailto:hello@buttonpetite.com">hello@buttonpetite.com</a>.</p>
+      </div>
+    </noscript>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <div class="foot__brand">
+        <span class="brand__mark" data-face="laugh" data-pair="yellow" aria-hidden="true"></span>
+        <p class="foot__line">Tiny apps, made for fun.<br>By one person, bugs included.</p>
+      </div>
+      <nav class="foot__cols" aria-label="Footer">
+        <div>
+          <h2 class="meta">Apps</h2>
+          <ul id="foot-apps"></ul>
+        </div>
+        <div>
+          <h2 class="meta">Help</h2>
+          <ul>
+            <li><a href="#/help">Help &amp; contact</a></li>
+            <li><a href="#/privacy">Privacy</a></li>
+            <li><a href="#/ideas">Send an idea</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="meta">Follow</h2>
+          <ul id="foot-socials"></ul>
+        </div>
+      </nav>
+      <p class="foot__small" id="foot-small"></p>
+    </div>
+  </footer>
+</body>
+</html>
