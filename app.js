@@ -127,7 +127,7 @@ const APPS = [
     links: {
       appStore: "",
       googlePlay: "",
-      web: ""                  // PLACEHOLDER: paste the NotNow web app link (GitHub Pages)
+      web: "https://samrozemeijer2001-ship-it.github.io/NotNow/"
     },
     screens: [
       "assets/screens/notnow-1.png",
@@ -292,7 +292,7 @@ function pageHome() {
         <article class="card in" data-pair="${esc(app.pair)}" style="animation-delay:${0.06 * i}s">
           <div class="card__top">
             <img class="card__icon" src="${esc(app.icon)}" alt="" width="84" height="84" loading="lazy">
-            <h3 class="disp card__name">${esc(app.name)}</h3>
+            <h3 class="disp card__name"><a class="card__link" href="#/apps/${esc(app.id)}">${esc(app.name)}</a></h3>
           </div>
           <p class="card__tagline">${esc(app.tagline)}</p>
           ${app.text ? `<p class="card__text">${esc(app.text)}</p>` : ""}
@@ -376,7 +376,7 @@ function pageApp(app) {
   <section class="apphero" data-pair="${esc(app.pair)}">
     <div class="wrap">
       <div class="apphero__in">
-        <img class="apphero__icon in" src="${esc(app.icon)}" alt="${esc(app.name)} app icon" width="200" height="200">
+        <span class="apphero__icon in"><img src="${esc(app.icon)}" alt="${esc(app.name)} app icon" width="200" height="200"></span>
         <div class="in">
           <a class="back" href="#/apps">${ICON.arrow}All apps</a>
           <h1 class="disp apphero__name">${esc(app.name)}</h1>
@@ -523,7 +523,12 @@ function route() {
     main.innerHTML = html;
     main.dataset.key = key;
     bindPage();
-    if (!scrollTo) window.scrollTo(0, 0);
+    if (!scrollTo) {
+      document.documentElement.style.scrollBehavior = "auto";
+      window.scrollTo(0, 0);
+      document.documentElement.style.scrollBehavior = "";
+      main.focus({ preventScroll: true });
+    }
   }
   document.title = title;
   $$(".nav a").forEach(a => a.removeAttribute("aria-current"));
