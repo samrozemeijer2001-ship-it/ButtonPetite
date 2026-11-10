@@ -52,7 +52,8 @@ const APPS = [
     links: {
       appStore: "",            // PLACEHOLDER: paste the App Store link
       googlePlay: "",
-      web: ""
+      web: "https://samrozemeijer2001-ship-it.github.io/Lafbekken/",
+      repo: "https://github.com/samrozemeijer2001-ship-it/Lafbekken"
     },
     features: [
       "One phone, passed around the table",
@@ -90,7 +91,8 @@ const APPS = [
     links: {
       appStore: "",
       googlePlay: "",
-      web: ""                  // PLACEHOLDER: paste the web app link when it's online
+      web: "https://samrozemeijer2001-ship-it.github.io/BakkiePleur/",
+      repo: "https://github.com/samrozemeijer2001-ship-it/BakkiePleur"
     },
     features: [
       "Log a coffee, tea or energy drink in one tap",
@@ -127,7 +129,8 @@ const APPS = [
     links: {
       appStore: "",
       googlePlay: "",
-      web: "https://samrozemeijer2001-ship-it.github.io/NotNow/"
+      web: "https://samrozemeijer2001-ship-it.github.io/NotNow/",
+      repo: "https://github.com/samrozemeijer2001-ship-it/NotNow"
     },
     screens: [
       "assets/screens/notnow-1.png",
@@ -219,6 +222,7 @@ const ICON = {
   apple: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9s-1.9-.9-3.2-.8c-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8s1.9.8 3.2.8 2.1-1.2 2.9-2.4c.9-1.3 1.3-2.7 1.3-2.8-.1 0-2.4-.9-2.4-3.9zM14 5.5c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg>',
   play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17c0 .6.7 1 1.2.7l14.6-8.5c.5-.3.5-1.1 0-1.4L5.2 2.8C4.7 2.5 4 2.9 4 3.5z"/></svg>',
   globe: '<svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.7 5.6 3.7 9s-1.2 6.4-3.7 9c-2.5-2.6-3.7-5.6-3.7-9S9.5 5.6 12 3z"/></g></svg>',
+  github: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 2.9.8.1-.7.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>',
   mail: '<svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></g></svg>'
 };
 
@@ -238,7 +242,7 @@ function storeButtons(app, small = false) {
   const out = [];
   if (l.appStore) out.push(`<a class="${cls}" href="${esc(l.appStore)}" rel="noopener">${ICON.apple}App Store</a>`);
   if (l.googlePlay) out.push(`<a class="${cls}" href="${esc(l.googlePlay)}" rel="noopener">${ICON.play}Google Play</a>`);
-  if (l.web) out.push(`<a class="${cls}" href="${esc(l.web)}" rel="noopener">${ICON.globe}Open web app</a>`);
+  if (l.web) out.push(`<a class="${cls}" href="${esc(l.web)}" target="_blank" rel="noopener">${ICON.globe}Open web app</a>`);
   if (!out.length) {
     const msg = app.status === "private" ? "Not public yet" : app.status === "live" ? "Link coming soon" : "Coming soon";
     out.push(`<span class="${cls}" aria-disabled="true">${msg}</span>`);
@@ -376,13 +380,13 @@ function pageApp(app) {
   <section class="apphero" data-pair="${esc(app.pair)}">
     <div class="wrap">
       <div class="apphero__in">
-        <span class="apphero__icon in"><img src="${esc(app.icon)}" alt="${esc(app.name)} app icon" width="200" height="200"></span>
+        <span class="apphero__icon"><img src="${esc(app.icon)}" alt="${esc(app.name)} app icon" width="200" height="200"></span>
         <div class="in">
           <a class="back" href="#/apps">${ICON.arrow}All apps</a>
           <h1 class="disp apphero__name">${esc(app.name)}</h1>
           <p class="apphero__tagline">${esc(app.tagline)}</p>
           <div class="card__chips">${chips(app)}</div>
-          <div class="btn-row">${storeButtons(app)}</div>
+          <div class="btn-row">${storeButtons(app)}${app.links?.repo ? `<a class="btn btn--soft" href="${esc(app.links.repo)}" target="_blank" rel="noopener">${ICON.github}Code on GitHub</a>` : ""}</div>
         </div>
       </div>
     </div>
@@ -415,6 +419,7 @@ function pageApp(app) {
             ${app.age ? `<div><dt>Age</dt><dd>${esc(app.age)}</dd></div>` : ""}
             ${app.language ? `<div><dt>Language</dt><dd>${esc(app.language)}</dd></div>` : ""}
             <div><dt>Price</dt><dd>${esc(app.price || "Free")}</dd></div>
+            ${app.links?.repo ? `<div><dt>Code</dt><dd><a href="${esc(app.links.repo)}" target="_blank" rel="noopener">GitHub</a></dd></div>` : ""}
           </dl>
         </div>
       </aside>
@@ -524,9 +529,7 @@ function route() {
     main.dataset.key = key;
     bindPage();
     if (!scrollTo) {
-      document.documentElement.style.scrollBehavior = "auto";
-      window.scrollTo(0, 0);
-      document.documentElement.style.scrollBehavior = "";
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
       main.focus({ preventScroll: true });
     }
   }
@@ -561,6 +564,15 @@ function bindPage() {
       if (hint) hint.textContent = lines[n++ % lines.length];
     });
   }
+
+  $$(".card").forEach(card => {
+    const link = $(".card__link", card);
+    if (!link) return;
+    card.addEventListener("click", e => {
+      if (e.target.closest("a, button")) return;
+      location.hash = link.getAttribute("href");
+    });
+  });
 
   const form = $("#idea-form");
   if (form) form.addEventListener("submit", sendIdea);
