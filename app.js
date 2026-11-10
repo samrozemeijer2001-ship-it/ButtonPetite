@@ -129,6 +129,12 @@ const APPS = [
       googlePlay: "",
       web: ""                  // PLACEHOLDER: paste the NotNow web app link (GitHub Pages)
     },
+    screens: [
+      "assets/screens/notnow-1.png",
+      "assets/screens/notnow-2.png",
+      "assets/screens/notnow-3.png",
+      "assets/screens/notnow-4.png"
+    ],
     features: [
       "Capture a thought in seconds, by typing or with your voice",
       "Mark what's important, so it stays on top",
@@ -154,7 +160,7 @@ const APPS = [
         "Turn Notifications off in Settings and that copy is deleted from the server.",
         "Use my current location only asks your phone for your position when you tap it. It's used inside the app and not sent to me.",
         "Voice input uses the speech recognition of your browser (Apple or Google). What you say is handled by them, not by me.",
-        "The app loads its font from Google Fonts, so Google can see that the app was opened.",
+        "The fonts are built into the app, so nothing is loaded from Google or any other outside server.",
         "Clear the app's site data or remove it from your home screen and everything on your device is gone."
       ]
     }

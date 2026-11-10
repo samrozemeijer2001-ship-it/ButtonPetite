@@ -10,6 +10,7 @@ Three files plus an assets folder:
 Open app.js. Everything you need is at the top:
 - SITE: domain, e-mail addresses, socials, optional form endpoint
 - APPS: one object per app. Copy one, paste, change. Put its icon in assets/icons/.
+  Optional `screens`: a list of screenshots (portrait, about 600 px wide) in assets/screens/.
 - COMING_SOON: ideas and apps that aren't public yet.
 
 ## Pages
