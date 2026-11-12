@@ -462,3 +462,33 @@ ul { list-style: none; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- static HTML version (12 November 2026) ----------
+   These rules replace what used to be inline styles set by JavaScript. */
+.brand__mark, .soon-card__tile { color: var(--fg); }
+.bigbutton__top, .ideas__face, .notfound__face { color: var(--yellow-ink); }
+.notfound__face { width: 120px; margin-bottom: 24px; }
+.notfound p + p { margin-top: 20px; }
+
+/* accent colour for the square bullets on app and privacy pages */
+[data-accent="mint"]   { --accent: var(--mint); }
+[data-accent="sky"]    { --accent: var(--sky); }
+[data-accent="lilac"]  { --accent: var(--lilac); }
+[data-accent="cobalt"] { --accent: var(--cobalt); }
+[data-accent="yellow"] { --accent: var(--yellow); }
+[data-accent="orange"] { --accent: var(--orange); }
+[data-accent="red"]    { --accent: var(--red); }
+[data-accent="purple"] { --accent: var(--purple); }
+[data-accent="pink"]   { --accent: var(--pink); }
+
+/* cards appear one after the other */
+.apps > :nth-child(2), .soon-grid > :nth-child(2) { animation-delay: .06s; }
+.apps > :nth-child(3), .soon-grid > :nth-child(3) { animation-delay: .12s; }
+.apps > :nth-child(4), .soon-grid > :nth-child(4) { animation-delay: .18s; }
+.apps > :nth-child(5), .soon-grid > :nth-child(5) { animation-delay: .24s; }
+.apps > :nth-child(6), .soon-grid > :nth-child(6) { animation-delay: .30s; }
+
+/* the anchor sections leave room for the sticky header */
+#apps, #soon, #ideas, #faq { scroll-margin-top: 80px; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+.shots img { height: auto; aspect-ratio: 600 / 1298; }

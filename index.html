@@ -1,76 +1,245 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Button Petite: tiny apps, made for fun</title>
-  <meta name="description" content="Button Petite is where I put the tiny apps I make for fun. Party games, coffee math and more. Help, privacy info and a place to send your ideas.">
+  <meta name="description" content="Button Petite is where I put the tiny apps I make for fun. Party games, coffee math, a place for busy heads and more. Help, privacy info and a place to send your ideas.">
   <meta name="theme-color" content="#2747c9">
-  <meta property="og:title" content="Button Petite: tiny apps, made for fun">
-  <meta property="og:description" content="Tiny apps I make for fun, with help, privacy info and a place to send your ideas.">
   <link rel="canonical" href="https://buttonpetite.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Button Petite">
+  <meta property="og:title" content="Button Petite: tiny apps, made for fun">
+  <meta property="og:description" content="Button Petite is where I put the tiny apps I make for fun. Party games, coffee math, a place for busy heads and more. Help, privacy info and a place to send your ideas.">
   <meta property="og:url" content="https://buttonpetite.com/">
   <meta property="og:image" content="https://buttonpetite.com/assets/share-image.png">
-  <meta property="og:type" content="website">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/share-image.png">
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/rubik-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="top" id="top">
+  <header class="top">
     <div class="wrap top__in">
-      <a class="brand" href="#/" aria-label="Button Petite, home">
-        <span class="brand__mark" data-face="happy" data-pair="yellow" aria-hidden="true"></span>
+      <a class="brand" href="./" aria-label="Button Petite, home">
+        <span class="brand__mark" data-pair="yellow"><svg class="face" viewBox="20 24 60 54" aria-hidden="true" focusable="false"><g fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><g class="eyes"><circle cx="34" cy="38" r="4"/><circle cx="66" cy="38" r="4"/></g><g class="mouth"><path d="M24 54 q26 36 52 0 z"/></g></g></svg></span>
         <span class="brand__name">Button <span class="brand__tag">Petite</span></span>
       </a>
       <nav class="nav" aria-label="Main">
-        <a href="#/apps">Apps</a>
-        <a href="#/soon">Coming soon</a>
-        <a class="nav__cta" href="#/ideas">Send an idea</a>
+        <a href="./#apps">Apps</a>
+        <a href="./#soon">Coming soon</a>
+        <a class="nav__cta" href="./#ideas">Send an idea</a>
       </nav>
     </div>
   </header>
 
-  <main id="main" tabindex="-1">
-    <!-- app.js renders the current page in here -->
-    <noscript>
-      <div class="wrap noscript">
-        <h1 class="disp">Button Petite</h1>
-        <p>This site needs JavaScript to show my apps. You can always reach me at <a href="mailto:hello@buttonpetite.com">hello@buttonpetite.com</a>.</p>
+  <main id="main">
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero__in">
+        <div class="in">
+          <p class="meta eyebrow">Hi, welcome</p>
+          <h1 class="disp hero__title" id="hero-title">Tiny apps,<br><span class="tag">made</span> for fun</h1>
+          <p class="hero__text">An out the hand gewalkte hobby. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
+          <p class="btn-row">
+            <a class="btn" href="#apps">See my apps <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow"></use></svg></a>
+            <a class="btn btn--soft" href="#ideas">Send an idea</a>
+          </p>
+        </div>
+        <div class="hero__art">
+          <button class="bigbutton" type="button" data-pair="yellow" aria-label="Press the button">
+            <span class="bigbutton__side"></span>
+            <span class="bigbutton__top"><svg class="face" viewBox="20 24 60 54" aria-hidden="true" focusable="false"><g fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><g class="eyes"><circle cx="34" cy="38" r="4"/><circle cx="66" cy="38" r="4"/></g><g class="mouth"><path d="M24 54 q26 36 52 0 z"/></g></g></svg></span>
+            <span class="meta bigbutton__hint" aria-live="polite">Go on, press it</span>
+          </button>
+        </div>
       </div>
-    </noscript>
+    </section>
+
+    <section class="section" id="apps" aria-labelledby="apps-title">
+      <div class="wrap">
+        <header class="section__head">
+          <div>
+            <p class="meta eyebrow">What I made</p>
+            <h2 class="disp section__title" id="apps-title">My apps</h2>
+          </div>
+          <p class="section__lead">Small apps for real life. Tap an app for help, questions and how I handle your data.</p>
+        </header>
+        <div class="apps">
+          <article class="card in" data-pair="red">
+            <div class="card__top">
+              <img class="card__icon" src="assets/icons/lafbekken.png" alt="" width="84" height="84" loading="lazy">
+              <h3 class="disp card__name"><a class="card__link" href="apps/lafbekken/">Lafbekken</a></h3>
+            </div>
+            <p class="card__tagline">A party game for one phone. Do you play it safe?</p>
+            <p class="card__text">Pass one phone around the table. Every turn you pick LAF and play it safe, or LEF and go all in. The braver the table gets, the wilder it gets.</p>
+            <ul class="card__chips">
+              <li class="chip status">Live</li>
+              <li class="chip">iPhone</li>
+              <li class="chip">Web app</li>
+              <li class="chip">18+</li>
+            </ul>
+            <div class="card__foot">
+              <a class="btn btn--small" href="https://samrozemeijer2001-ship-it.github.io/Lafbekken/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#globe"></use></svg>Open web app</a>
+              <a class="btn btn--small btn--soft" href="apps/lafbekken/">Help &amp; info</a>
+            </div>
+          </article>
+
+          <article class="card in" data-pair="cobalt">
+            <div class="card__top">
+              <img class="card__icon" src="assets/icons/caffeine.png" alt="" width="84" height="84" loading="lazy">
+              <h3 class="disp card__name"><a class="card__link" href="apps/caffeine/">Caffeine</a></h3>
+            </div>
+            <p class="card__tagline">How much caffeine is still in your tank?</p>
+            <p class="card__text">Log a coffee, tea or energy drink in one tap and watch the tank slowly empty during the day. It shows an estimate of how much caffeine is still in your system, and whether the next one will keep you up tonight.</p>
+            <ul class="card__chips">
+              <li class="chip status">Working on it</li>
+              <li class="chip">Web app</li>
+            </ul>
+            <div class="card__foot">
+              <a class="btn btn--small" href="https://samrozemeijer2001-ship-it.github.io/BakkiePleur/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#globe"></use></svg>Open web app</a>
+              <a class="btn btn--small btn--soft" href="apps/caffeine/">Help &amp; info</a>
+            </div>
+          </article>
+
+          <article class="card in" data-pair="orange">
+            <div class="card__top">
+              <img class="card__icon" src="assets/icons/notnow.png" alt="" width="84" height="84" loading="lazy">
+              <h3 class="disp card__name"><a class="card__link" href="apps/notnow/">NotNow</a></h3>
+            </div>
+            <p class="card__tagline">Get it out of your head. I'll remember it.</p>
+            <p class="card__text">A thought pops up while you're busy? Throw it on a card, type it or just say it, and swipe it away. NotNow keeps it safe until you have time, and nudges you when it matters.</p>
+            <ul class="card__chips">
+              <li class="chip status">Beta</li>
+              <li class="chip">Web app</li>
+              <li class="chip">iPhone</li>
+              <li class="chip">Android</li>
+            </ul>
+            <div class="card__foot">
+              <a class="btn btn--small" href="https://samrozemeijer2001-ship-it.github.io/NotNow/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#globe"></use></svg>Open web app</a>
+              <a class="btn btn--small btn--soft" href="apps/notnow/">Help &amp; info</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soon" id="soon" aria-labelledby="soon-title">
+      <div class="wrap">
+        <header class="section__head">
+          <div>
+            <p class="meta eyebrow">On my desk</p>
+            <h2 class="disp section__title" id="soon-title">Coming soon</h2>
+          </div>
+          <p class="section__lead">Things I'm working on or thinking about. No promises on dates, we'll see how the cat comes out of the tree.</p>
+        </header>
+        <div class="soon-grid">
+          <article class="soon-card in">
+            <div class="soon-card__tile" data-pair="mint">
+              <img src="assets/icons/chores.png" alt="" width="88" height="88" loading="lazy">
+            </div>
+            <p><span class="chip">Not public</span></p>
+            <h3 class="disp soon-card__name">Chores</h3>
+            <p>Who cleaned the bathroom last? A chore tracker for sharing a home. Right now it's only used at home, but I'm working on a version for everyone.</p>
+            
+          </article>
+
+          <article class="soon-card in">
+            <div class="soon-card__tile" data-pair="lilac">
+              <svg class="face" viewBox="20 24 60 54" aria-hidden="true" focusable="false"><g fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><g class="eyes"><path transform="translate(34 39) scale(.72) translate(-34 -39)" d="M34 26 l4 9 10 1 -8 6 3 10 -9 -6 -9 6 3 -10 -8 -6 10 -1z"/><path transform="translate(66 39) scale(.72) translate(-66 -39)" d="M66 26 l4 9 10 1 -8 6 3 10 -9 -6 -9 6 3 -10 -8 -6 10 -1z"/></g><g class="mouth"><path d="M26 62 q24 32 48 0 z"/></g></g></svg>
+            </div>
+            <p><span class="chip">Working on it</span></p>
+            <h3 class="disp soon-card__name">Next idea</h3>
+            <p>Something new is cooking. Now the monkey doesn't come out of the sleeve yet, but you'll see it here first.</p>
+            
+          </article>
+
+          <article class="soon-card in">
+            <div class="soon-card__tile" data-pair="yellow">
+              <svg class="face" viewBox="20 24 60 54" aria-hidden="true" focusable="false"><g fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><g class="eyes"><circle cx="34" cy="38" r="4"/><path d="M58 40 q8 -8 16 0" fill="none" stroke-width="8"/></g><g class="mouth"><path d="M24 54 q26 36 52 0 z"/></g></g></svg>
+            </div>
+            <p><span class="chip">Idea box</span></p>
+            <h3 class="disp soon-card__name">Your idea?</h3>
+            <p>Got a tiny everyday problem that needs a tiny app? Tell me, maybe it's the next one.</p>
+            <p><a class="btn btn--small" href="#ideas">Tell me <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow"></use></svg></a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ideas" id="ideas" aria-labelledby="ideas-title">
+      <div class="wrap ideas__in">
+        <div>
+          <p class="meta eyebrow">Idea box</p>
+          <h2 class="disp ideas__title" id="ideas-title">Got an idea?</h2>
+          <p class="ideas__text">A tiny problem that needs a tiny app, a feature you miss or a bug that drives you crazy. Tell me. I read everything, and the best ideas end up on my desk.</p>
+          <div class="ideas__face"><svg class="face" viewBox="20 24 60 54" aria-hidden="true" focusable="false"><g fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><g class="eyes"><path transform="translate(34 39) scale(.72) translate(-34 -39)" d="M34 26 l4 9 10 1 -8 6 3 10 -9 -6 -9 6 3 -10 -8 -6 10 -1z"/><path transform="translate(66 39) scale(.72) translate(-66 -39)" d="M66 26 l4 9 10 1 -8 6 3 10 -9 -6 -9 6 3 -10 -8 -6 10 -1z"/></g><g class="mouth"><path d="M26 62 q24 32 48 0 z"/></g></g></svg></div>
+        </div>
+        <form class="form" id="idea-form" action="mailto:hello@buttonpetite.com" method="post" enctype="text/plain" data-endpoint="">
+          <fieldset class="field choices">
+            <legend>What is it about?</legend>
+            <label class="choice"><input type="radio" name="about" value="Lafbekken"><span>Lafbekken</span></label>
+            <label class="choice"><input type="radio" name="about" value="Caffeine"><span>Caffeine</span></label>
+            <label class="choice"><input type="radio" name="about" value="NotNow"><span>NotNow</span></label>
+            <label class="choice"><input type="radio" name="about" value="A new app" checked><span>A new app</span></label>
+          </fieldset>
+          <div class="field">
+            <label for="idea">Your idea</label>
+            <textarea class="textarea" id="idea" name="idea" required maxlength="2000" placeholder="I'd love an app that..."></textarea>
+          </div>
+          <div class="field">
+            <label for="name">Your name <span class="hint">(optional)</span></label>
+            <input class="input" id="name" name="name" type="text" autocomplete="nickname" maxlength="80">
+          </div>
+          <div class="field">
+            <label for="email">Your e-mail <span class="hint">(optional, only if you want a reply)</span></label>
+            <input class="input" id="email" name="email" type="email" autocomplete="email" maxlength="120">
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn" type="submit">Send my idea <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow"></use></svg></button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer class="foot">
     <div class="wrap foot__in">
       <div class="foot__brand">
-        <span class="brand__mark" data-face="laugh" data-pair="yellow" aria-hidden="true"></span>
+        <span class="brand__mark" data-pair="yellow"><svg class="face" viewBox="20 24 60 54" aria-hidden="true" focusable="false"><g fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><g class="eyes"><path d="M26 40 q8 -8 16 0 M58 40 q8 -8 16 0" fill="none" stroke-width="8"/></g><g class="mouth"><path d="M24 54 q26 36 52 0 z"/></g></g></svg></span>
         <p class="foot__line">Tiny apps, made for fun.<br>By one person, bugs included.</p>
       </div>
       <nav class="foot__cols" aria-label="Footer">
         <div>
           <h2 class="meta">Apps</h2>
-          <ul id="foot-apps"></ul>
+          <ul>
+            <li><a href="apps/lafbekken/">Lafbekken</a></li>
+            <li><a href="apps/caffeine/">Caffeine</a></li>
+            <li><a href="apps/notnow/">NotNow</a></li>
+          </ul>
         </div>
         <div>
           <h2 class="meta">Help</h2>
           <ul>
-            <li><a href="#/help">Help &amp; contact</a></li>
-            <li><a href="#/privacy">Privacy</a></li>
-            <li><a href="#/ideas">Send an idea</a></li>
+            <li><a href="help/">Help &amp; contact</a></li>
+            <li><a href="privacy/">Privacy</a></li>
+            <li><a href="./#ideas">Send an idea</a></li>
           </ul>
         </div>
         <div>
           <h2 class="meta">Follow</h2>
-          <ul id="foot-socials"></ul>
+          <ul>
+            <li><a href="https://www.instagram.com/buttonpetite/" rel="me noopener">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@buttonpetite" rel="me noopener">TikTok</a></li>
+            <li><a href="mailto:hello@buttonpetite.com">E-mail</a></li>
+          </ul>
         </div>
       </nav>
-      <p class="foot__small" id="foot-small"></p>
+      <p class="foot__small">&copy; 2026 Button Petite. Made by one person, for fun.</p>
     </div>
   </footer>
 </body>
