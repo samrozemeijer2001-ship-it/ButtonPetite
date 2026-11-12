@@ -492,3 +492,4 @@ ul { list-style: none; }
 #apps, #soon, #ideas, #faq { scroll-margin-top: 80px; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 .shots img { height: auto; aspect-ratio: 600 / 1298; }
+@media (min-width: 760px) { .apps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

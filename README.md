@@ -12,6 +12,7 @@ apps/
   lafbekken/privacy/index.html  privacy policy of the app
   caffeine/...                  same structure
   notnow/...                    same structure
+  chores/...                    same structure (not public: no app or code links)
 privacy/index.html              privacy of the website itself
 help/index.html                 help & contact
 404.html                        shown by GitHub Pages for every address that doesn't exist
