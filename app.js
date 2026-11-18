@@ -59,6 +59,12 @@ const APPS = [
       web: "https://samrozemeijer2001-ship-it.github.io/Lafbekken/",
       repo: "https://github.com/samrozemeijer2001-ship-it/Lafbekken"
     },
+    screens: [
+      "assets/screens/lafbekken-1.png",
+      "assets/screens/lafbekken-2.png",
+      "assets/screens/lafbekken-3.png",
+      "assets/screens/lafbekken-4.png"
+    ],
     cando: [
       { title: "Play it safe, or don't", text: "LAF is safe, until you pick it too often. Every LAF in a row makes the next one riskier. LEF is always fifty-fifty, but the stakes go up every time." },
       { title: "Feel the heat rise", text: "Every brave choice turns up the heat. The colours and the mood of the game change with it, all the way to level 10." },
@@ -106,6 +112,12 @@ const APPS = [
       web: "https://samrozemeijer2001-ship-it.github.io/BakkiePleur/",
       repo: "https://github.com/samrozemeijer2001-ship-it/BakkiePleur"
     },
+    screens: [
+      "assets/screens/caffeine-1.png",
+      "assets/screens/caffeine-2.png",
+      "assets/screens/caffeine-3.png",
+      "assets/screens/caffeine-4.png"
+    ],
     cando: [
       { title: "Log a drink in one tap", text: "Save your usual drinks as favourites and log them with one tap. Forgot one this morning? Add it with the right time, or for an earlier day." },
       { title: "Watch the tank empty", text: "Every drink slowly fades out of the tank during the day. One regular coffee fills about a third of it." },
@@ -205,8 +217,15 @@ const APPS = [
     links: {
       appStore: "",
       googlePlay: "",
-      web: "https://buttonpetite.com/lichaamschemie/"
+      web: ""                 // PLACEHOLDER: paste the github.io link of the app
     },
+    screens: [
+      "assets/screens/lichaamschemie-1.png",
+      "assets/screens/lichaamschemie-2.png",
+      "assets/screens/lichaamschemie-3.png",
+      "assets/screens/lichaamschemie-4.png",
+      "assets/screens/lichaamschemie-5.png"
+    ],
     cando: [
       { title: "Read about 8 substances", text: "Adrenaline, noradrenaline, acetylcholine, cortisol, dopamine, histamine, adenosine and oxytocin. Each one starts with a real-life question and explains, step by step, what happens." },
       { title: "Follow a theme", text: "20 short lessons about everyday things: coffee, sleep, stress before a match, pain, falling in love, hunger and more." },
@@ -249,8 +268,15 @@ const APPS = [
     links: {
       appStore: "",
       googlePlay: "",
-      web: "https://buttonpetite.com/woordpost/"
+      web: ""                 // PLACEHOLDER: paste the github.io link of the app
     },
+    screens: [
+      "assets/screens/woordpost-1.png",
+      "assets/screens/woordpost-2.png",
+      "assets/screens/woordpost-3.png",
+      "assets/screens/woordpost-4.png",
+      "assets/screens/woordpost-5.png"
+    ],
     cando: [
       { title: "Open today's post", text: "One fancy word with its meaning and an example sentence, and one saying with what it means and when to use it." },
       { title: "Guess the Wildcard", text: "A riddle with a hidden word. You get three tries and one hint. Guess it in one go for 100 points. Every 300 points you go up a level." },
