@@ -13,6 +13,12 @@ Open app.js. Everything you need is at the top:
   Optional `screens`: a list of screenshots (portrait, about 600 px wide) in assets/screens/.
 - COMING_SOON: ideas and apps that aren't public yet.
 
+## Apps hosted on this site
+Some web apps live in their own folder on this site:
+- lichaamschemie/  ->  https://buttonpetite.com/lichaamschemie/
+- woordpost/       ->  https://buttonpetite.com/woordpost/  (built app only; the source code stays in the Woordpost project)
+To update one, replace the files in its folder. For Lichaamschemie, also raise VERSION in lichaamschemie/sw.js.
+
 ## Pages
 - #/                       home (hero, apps, coming soon, idea box)
 - #/apps/<id>              app page: about, FAQ, help, privacy summary

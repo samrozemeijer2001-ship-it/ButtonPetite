@@ -462,3 +462,11 @@ ul { list-style: none; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+
+/* Long app names (Lichaamschemie) must fit the hero */
+.apphero__in > .in { min-width: 0; }
+.apphero__name--long { font-size: clamp(40px, 7.4vw, 104px); overflow-wrap: anywhere; }
+.card__top { min-width: 0; }
+.card__top:has(.card__name--long) { flex-direction: column; align-items: flex-start; }
+.card__name.card__name--long { font-size: clamp(34px, 3.2vw, 42px) !important; overflow-wrap: normal; white-space: nowrap; }
+@media (max-width: 640px) { .card__name.card__name--long { font-size: 38px !important; } }

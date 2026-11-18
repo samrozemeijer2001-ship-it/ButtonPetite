@@ -190,6 +190,95 @@ const APPS = [
         "Clear the app's site data or remove it from your home screen and everything on your device is gone."
       ]
     }
+  },
+  {
+    id: "lichaamschemie",
+    name: "Lichaamschemie",
+    pair: "black",
+    status: "beta",
+    icon: "assets/icons/lichaamschemie.png",
+    tagline: "What is that stuff in your body actually doing?",
+    text: "A pocket encyclopedia of the stuff in your body, in plain language. Adrenaline, cortisol, dopamine, oxytocin and more: where it comes from, what it does and why your heart is already pounding before the kick-off. The app is in Dutch.",
+    goal: "You hear about dopamine, cortisol and adrenaline all the time, usually in one sentence with the word \"hack\". I wanted to know what they really do, without needing a biology degree or reading ten tabs of half-truths. So I put it in one place: short, clear, with sources, and with a smiley on every page. Still growing, so new pages keep coming.",
+    platforms: ["Web app"],
+    language: "Dutch",
+    links: {
+      appStore: "",
+      googlePlay: "",
+      web: "https://buttonpetite.com/lichaamschemie/"
+    },
+    cando: [
+      { title: "Read about 8 substances", text: "Adrenaline, noradrenaline, acetylcholine, cortisol, dopamine, histamine, adenosine and oxytocin. Each one starts with a real-life question and explains, step by step, what happens." },
+      { title: "Follow a theme", text: "20 short lessons about everyday things: coffee, sleep, stress before a match, pain, falling in love, hunger and more." },
+      { title: "Tap a word you don't know", text: "17 difficult words, like receptor or half-life, are explained on a small card. Tap the word and the card pops up, without leaving the page." },
+      { title: "Teach me something new", text: "One tap picks a random page you haven't opened yet. Seen them all? A new round starts." },
+      { title: "Search and browse A to Z", text: "Find a substance, a theme or a word in seconds, or scroll through the whole index." },
+      { title: "Save what you like", text: "Save pages for later and see what you read before. It all stays on your phone." },
+      { title: "Works offline", text: "Open it once and it keeps working without internet. Put it on your home screen and it feels like a real app." }
+    ],
+    faq: [
+      { q: "Is the app in English?", a: "No, Lichaamschemie is in Dutch for now." },
+      { q: "How do I put it on my home screen?", a: "iPhone: open the link in Safari, tap the share button and choose Add to Home Screen. Android: open the link in Chrome, tap the menu and choose Install app." },
+      { q: "Is this medical advice?", a: "No. It explains how things work in a normal body, in plain language. If you have complaints or questions about your health, ask a doctor." },
+      { q: "Is it finished?", a: "Not yet, it's a beta. More substances and themes are on the way. See a mistake or miss a substance? Send me a message." },
+      { q: "Is it free?", a: "Yes." }
+    ],
+    privacy: {
+      summary: "Lichaamschemie keeps everything on your phone. No account, no tracking, nothing is sent to me.",
+      points: [
+        "What you read and what you save is stored only in your browser on your own device.",
+        "No account, no analytics, no ads and no tracking.",
+        "The fonts are built into the app, so nothing is loaded from Google or any other outside server.",
+        "The source links open the original websites. Only then do you leave the app.",
+        "Clear the app's site data or remove it from your home screen and everything is gone.",
+        "The texts explain how the body works. They are not medical advice."
+      ]
+    }
+  },
+  {
+    id: "woordpost",
+    name: "Woordpost",
+    pair: "purple",
+    status: "beta",
+    icon: "assets/icons/woordpost.png",
+    tagline: "A little package of words in your mailbox, every day.",
+    text: "Every day you open one package: one fancy word, one Dutch saying and a Wildcard puzzle to guess. Everyone gets the same post on the same day. Right now it's a test month of 30 days. The app is in Dutch.",
+    goal: "I love words that make you sound smarter than you are, and Dutch sayings that make no sense at all if you translate them. Like this website, sometimes. I wanted one tiny thing a day that takes two minutes and leaves you with something new to say at dinner. So every day there's a package in your mailbox. Open it, learn a word, guess the Wildcard, done.",
+    platforms: ["Web app"],
+    language: "Dutch",
+    links: {
+      appStore: "",
+      googlePlay: "",
+      web: "https://buttonpetite.com/woordpost/"
+    },
+    cando: [
+      { title: "Open today's post", text: "One fancy word with its meaning and an example sentence, and one saying with what it means and when to use it." },
+      { title: "Guess the Wildcard", text: "A riddle with a hidden word. You get three tries and one hint. Guess it in one go for 100 points. Every 300 points you go up a level." },
+      { title: "Already know the word?", text: "Tap that you already know it, and you get a different word instead." },
+      { title: "Save your favourites", text: "Save words and sayings you want to remember, and practise them again later." },
+      { title: "Blast from the Past", text: "Now and then a golden package brings back a word you saved a week ago. Do you still remember it?" },
+      { title: "Share your score", text: "Share how you did with your friends. The answer is never in it, so you don't spoil it for anyone." },
+      { title: "Missed a day?", text: "The archive keeps all the days you missed, so you can catch up whenever you want." }
+    ],
+    faq: [
+      { q: "Is the app in English?", a: "No, Woordpost is all about Dutch words and sayings, so it's in Dutch." },
+      { q: "Why does everyone get the same post?", a: "So you can compare your Wildcard with your friends. A new day starts at midnight, Dutch time, also if you're somewhere else in the world." },
+      { q: "What happens after 30 days?", a: "This is a test month. After day 30 you see a message that the test is over, but the archive keeps working. Whether and how it continues depends a bit on what you think of it. Tell me!" },
+      { q: "How do I put it on my home screen?", a: "iPhone: open the link in Safari, tap the share button and choose Add to Home Screen. Android: open the link in Chrome, tap the menu and choose Install app." },
+      { q: "My progress is gone. What now?", a: "Your progress is saved in the browser you play in. On iPhone, the home screen app has its own storage, separate from Safari. So if you switch between them, you start fresh. Stick to one." },
+      { q: "Is it free?", a: "Yes." }
+    ],
+    privacy: {
+      summary: "Woordpost keeps your progress on your phone. No account, no tracking, nothing is sent to me.",
+      points: [
+        "Your progress, points, saved words and the optional name and character you pick are stored only in your browser on your own device.",
+        "No account, no analytics, no ads and no tracking.",
+        "Every day the app loads the cards from this website. That's a normal download, nothing about you is sent along.",
+        "When you share your score, you choose where it goes. It only contains your result, not your name.",
+        "The fonts are built into the app, so nothing is loaded from Google or any other outside server.",
+        "Clear the app's site data or remove it from your home screen and everything is gone."
+      ]
+    }
   }
 ];
 
@@ -289,7 +378,7 @@ function pageHome() {
       <div class="in">
         <span class="meta eyebrow">Hi, welcome</span>
         <h1 class="disp hero__title">Tiny apps,<br><span class="tag">made</span> for fun</h1>
-        <p class="hero__text">An out the hand gewalkte hobby. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads and whatever comes next. No company, no team, bugs included.</p>
+        <p class="hero__text">An out the hand gewalkte hobby. <strong>Button Petite</strong> is where I put the tiny apps I make for small everyday things: game nights, coffee, chores, busy heads, fancy words, the chemistry in your body and whatever comes next. No company, no team, bugs included.</p>
         <div class="btn-row">
           <a class="btn" href="#/apps">See my apps ${ICON.arrow}</a>
           <a class="btn btn--soft" href="#/ideas">Send an idea</a>
@@ -319,7 +408,7 @@ function pageHome() {
         <article class="card in" data-pair="${esc(app.pair)}" style="animation-delay:${0.06 * i}s">
           <div class="card__top">
             <img class="card__icon" src="${esc(app.icon)}" alt="" width="84" height="84" loading="lazy">
-            <h3 class="disp card__name"><a class="card__link" href="#/apps/${esc(app.id)}">${esc(app.name)}</a></h3>
+            <h3 class="disp card__name${app.name.length > 11 ? " card__name--long" : ""}"><a class="card__link" href="#/apps/${esc(app.id)}">${esc(app.name)}</a></h3>
           </div>
           <p class="card__tagline">${esc(app.tagline)}</p>
           ${app.text ? `<p class="card__text">${esc(app.text)}</p>` : ""}
@@ -406,7 +495,7 @@ function pageApp(app) {
         <span class="apphero__icon"><img src="${esc(app.icon)}" alt="${esc(app.name)} app icon" width="200" height="200"></span>
         <div class="in">
           <a class="back" href="#/apps">${ICON.arrow}All apps</a>
-          <h1 class="disp apphero__name">${esc(app.name)}</h1>
+          <h1 class="disp apphero__name${app.name.length > 11 ? " apphero__name--long" : ""}">${esc(app.name)}</h1>
           <p class="apphero__tagline">${esc(app.tagline)}</p>
           <div class="card__chips">${chips(app)}</div>
           <div class="btn-row">${storeButtons(app)}${app.links?.repo ? `<a class="btn btn--soft" href="${esc(app.links.repo)}" target="_blank" rel="noopener">${ICON.github}Code on GitHub</a>` : ""}</div>
@@ -581,7 +670,7 @@ function bindPage() {
   const big = $(".bigbutton");
   if (big) {
     const lines = ["Ouch", "Again?", "Hehe", "That tickles", "Boop", "Nothing at the hand"];
-    // The colour pairs of the apps: Caffeine, Lafbekken, NotNow, Chores
+    // Hero colour schemes (the ones styles.css supports): Caffeine, Lafbekken, NotNow, Chores
     const schemes = ["cobalt", "red", "orange", "mint"];
     const hero = $(".hero");
     let n = 0;

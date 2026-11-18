@@ -1,0 +1,1126 @@
+{
+ "version": 1,
+ "importedAt": "2026-11-17T15:40:59.301Z",
+ "source": "Woordpost-testmaand.xlsx",
+ "days": [
+  {
+   "dag": 1,
+   "woordId": "W01",
+   "spreekwoordId": "S01",
+   "wildcardId": "P01"
+  },
+  {
+   "dag": 2,
+   "woordId": "W02",
+   "spreekwoordId": "S02",
+   "wildcardId": "P02"
+  },
+  {
+   "dag": 3,
+   "woordId": "W03",
+   "spreekwoordId": "S03",
+   "wildcardId": "P03"
+  },
+  {
+   "dag": 4,
+   "woordId": "W04",
+   "spreekwoordId": "S04",
+   "wildcardId": "P04"
+  },
+  {
+   "dag": 5,
+   "woordId": "W05",
+   "spreekwoordId": "S05",
+   "wildcardId": "P05"
+  },
+  {
+   "dag": 6,
+   "woordId": "W06",
+   "spreekwoordId": "S06",
+   "wildcardId": "P06"
+  },
+  {
+   "dag": 7,
+   "woordId": "W07",
+   "spreekwoordId": "S07",
+   "wildcardId": "P07"
+  },
+  {
+   "dag": 8,
+   "woordId": "W08",
+   "spreekwoordId": "S08",
+   "wildcardId": "P08"
+  },
+  {
+   "dag": 9,
+   "woordId": "W09",
+   "spreekwoordId": "S09",
+   "wildcardId": "P09"
+  },
+  {
+   "dag": 10,
+   "woordId": "W10",
+   "spreekwoordId": "S10",
+   "wildcardId": "P10"
+  },
+  {
+   "dag": 11,
+   "woordId": "W11",
+   "spreekwoordId": "S11",
+   "wildcardId": "P11"
+  },
+  {
+   "dag": 12,
+   "woordId": "W12",
+   "spreekwoordId": "S12",
+   "wildcardId": "P12"
+  },
+  {
+   "dag": 13,
+   "woordId": "W13",
+   "spreekwoordId": "S13",
+   "wildcardId": "P13"
+  },
+  {
+   "dag": 14,
+   "woordId": "W14",
+   "spreekwoordId": "S14",
+   "wildcardId": "P14"
+  },
+  {
+   "dag": 15,
+   "woordId": "W15",
+   "spreekwoordId": "S15",
+   "wildcardId": "P15"
+  },
+  {
+   "dag": 16,
+   "woordId": "W16",
+   "spreekwoordId": "S16",
+   "wildcardId": "P16"
+  },
+  {
+   "dag": 17,
+   "woordId": "W17",
+   "spreekwoordId": "S17",
+   "wildcardId": "P17"
+  },
+  {
+   "dag": 18,
+   "woordId": "W18",
+   "spreekwoordId": "S18",
+   "wildcardId": "P18"
+  },
+  {
+   "dag": 19,
+   "woordId": "W19",
+   "spreekwoordId": "S19",
+   "wildcardId": "P19"
+  },
+  {
+   "dag": 20,
+   "woordId": "W20",
+   "spreekwoordId": "S20",
+   "wildcardId": "P20"
+  },
+  {
+   "dag": 21,
+   "woordId": "W21",
+   "spreekwoordId": "S21",
+   "wildcardId": "P21"
+  },
+  {
+   "dag": 22,
+   "woordId": "W22",
+   "spreekwoordId": "S22",
+   "wildcardId": "P22"
+  },
+  {
+   "dag": 23,
+   "woordId": "W23",
+   "spreekwoordId": "S23",
+   "wildcardId": "P23"
+  },
+  {
+   "dag": 24,
+   "woordId": "W24",
+   "spreekwoordId": "S24",
+   "wildcardId": "P24"
+  },
+  {
+   "dag": 25,
+   "woordId": "W25",
+   "spreekwoordId": "S25",
+   "wildcardId": "P25"
+  },
+  {
+   "dag": 26,
+   "woordId": "W26",
+   "spreekwoordId": "S26",
+   "wildcardId": "P26"
+  },
+  {
+   "dag": 27,
+   "woordId": "W27",
+   "spreekwoordId": "S27",
+   "wildcardId": "P27"
+  },
+  {
+   "dag": 28,
+   "woordId": "W28",
+   "spreekwoordId": "S28",
+   "wildcardId": "P28"
+  },
+  {
+   "dag": 29,
+   "woordId": "W29",
+   "spreekwoordId": "S29",
+   "wildcardId": "P29"
+  },
+  {
+   "dag": 30,
+   "woordId": "W30",
+   "spreekwoordId": "S30",
+   "wildcardId": "P30"
+  }
+ ],
+ "words": [
+  {
+   "id": "W01",
+   "woord": "Meesmuilen",
+   "betekenis": "Stiekem een beetje glimlachen omdat je iets grappig of belachelijk vindt.",
+   "voorbeeldzin": "Hij zat achter zijn koffiebeker te meesmuilen toen de voorzitter een kort overleg beloofde.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W02",
+   "woord": "Nuffig",
+   "betekenis": "Overdreven netjes of kieskeurig doen, alsof iets al gauw beneden je niveau is.",
+   "voorbeeldzin": "‘Hebben jullie ook échte koffie?’ vroeg hij nuffig in de rugbykantine.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W03",
+   "woord": "Fnuikend",
+   "betekenis": "Zo slecht voor iets dat het daardoor moeilijk wordt om door te gaan of te slagen.",
+   "voorbeeldzin": "Al die Teams-meldingen waren fnuikend voor mijn concentratie.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W04",
+   "woord": "Gotspe",
+   "betekenis": "Iets zo brutaals dat je bijna niet gelooft dat iemand het doet of zegt.",
+   "voorbeeldzin": "Hij kwam drie kwartier te laat en vroeg of wij voortaan op tijd konden beginnen. Een gotspe.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W05",
+   "woord": "Sardonisch",
+   "betekenis": "Spottend op een bittere, gemene manier.",
+   "voorbeeldzin": "‘Wat fijn dat we zo vroeg zijn opgestaan,’ zei hij met een sardonische glimlach toen ook de derde trein uitviel.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W06",
+   "woord": "Meewarig",
+   "betekenis": "Met een blik of toon die zoiets zegt als ‘ach, wat sneu voor je’.",
+   "voorbeeldzin": "Ze keek me meewarig aan toen ik vertelde dat ik voor mijn plezier een conditietest ging lopen.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W07",
+   "woord": "Onverholen",
+   "betekenis": "Zo duidelijk dat iedereen merkt wat je vindt of voelt. Je doet geen moeite om het te verbergen.",
+   "voorbeeldzin": "Met onverholen opluchting klapte hij zijn laptop dicht toen het laatste overleg uitviel.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W08",
+   "woord": "Laatdunkend",
+   "betekenis": "Over iemand praten of tegen iemand doen alsof die minder kan of minder waard is dan jij.",
+   "voorbeeldzin": "Hij deed laatdunkend over de stagiair, die als enige de fout in de tekening had gezien.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W09",
+   "woord": "Badinerend",
+   "betekenis": "Op een grappige, losse manier praten, vaak over iets dat eigenlijk serieus is.",
+   "voorbeeldzin": "Op badinerende toon noemde hij de derde uitgestelde levering ‘een oefening in geduld’.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W10",
+   "woord": "Geschipper",
+   "betekenis": "Steeds dingen aanpassen omdat verschillende mensen iets anders willen.",
+   "voorbeeldzin": "Na een week geschipper tussen de twee planningen vonden we eindelijk een datum.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W11",
+   "woord": "Heikel",
+   "betekenis": "Lastig om te bespreken of op te lossen, bijvoorbeeld omdat mensen er snel boos of gekwetst over raken.",
+   "voorbeeldzin": "De planning ging vlot. Wie de extra kosten moest betalen, was het heikele punt.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W12",
+   "woord": "Laken",
+   "betekenis": "Duidelijk zeggen dat je iets slecht of verkeerd vindt.",
+   "voorbeeldzin": "De commissie laakte het besluit om de bewoners pas een dag van tevoren in te lichten.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W13",
+   "woord": "Larmoyant",
+   "betekenis": "Zo huilerig of vol gevoel dat het overdreven wordt.",
+   "voorbeeldzin": "Zijn afscheidsspeech was zo larmoyant dat je bijna vergat dat hij maandag alweer langskwam.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W14",
+   "woord": "Schertsend",
+   "betekenis": "Grappend of een beetje plagend.",
+   "voorbeeldzin": "Na het zoveelste rondje maakte hij een schertsende opmerking over een bushalte langs het veld.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W15",
+   "woord": "Omfloerst",
+   "betekenis": "Bij een stem betekent het zacht en een beetje dof. Bij een boodschap betekent het dat iemand om zijn echte punt heen praat.",
+   "voorbeeldzin": "Hij liet op omfloerste wijze weten dat ik bij het volgende overleg mocht wegblijven.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W16",
+   "woord": "Schamper",
+   "betekenis": "Spottend op een manier die laat merken dat je iets dwaas of slecht vindt.",
+   "voorbeeldzin": "‘Uitstekende voorbereiding,’ zei ze schamper toen bleek dat niemand de sleutel had.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W17",
+   "woord": "Ontluisterend",
+   "betekenis": "Zo teleurstellend dat je beeld van iemand of iets ineens flink verandert.",
+   "voorbeeldzin": "Een blik in de gedeelde map was ontluisterend. Het complete dossier bleek uit drie screenshots te bestaan.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W18",
+   "woord": "Metier",
+   "betekenis": "Het vak dat iemand uitoefent en goed in de vingers heeft.",
+   "voorbeeldzin": "Die timmerman verstaat zijn metier. Hij zag meteen waarom de deur aanliep.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W19",
+   "woord": "Erudiet",
+   "betekenis": "Iemand die veel weet over allerlei onderwerpen en daar goed over kan vertellen of schrijven.",
+   "voorbeeldzin": "Onze gids was erudiet. Bij elk gebouw wist ze iets over de bouwstijl én over de mensen die er hadden gewoond.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W20",
+   "woord": "Lacune",
+   "betekenis": "Een gat in wat je weet of in de informatie die je hebt.",
+   "voorbeeldzin": "We wisten precies wat er geleverd werd. Wie het zou monteren, was nog een lacune in het dossier.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W21",
+   "woord": "Schisma",
+   "betekenis": "Een groep valt in delen uiteen omdat mensen het grondig oneens zijn.",
+   "voorbeeldzin": "De vraag of er ananas op pizza mocht, veroorzaakte een klein schisma in de groepsapp.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W22",
+   "woord": "Infaam",
+   "betekenis": "Zo gemeen of oneerlijk dat je je ervoor zou moeten schamen.",
+   "voorbeeldzin": "Hij pikte de laatste bitterbal en hield vol dat hij hem ‘al had aangekeken’. Een infame zet.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W23",
+   "woord": "Abject",
+   "betekenis": "Zo verkeerd of gemeen dat het je echt tegenstaat.",
+   "voorbeeldzin": "Ze vond het abject dat hij privéberichten rondstuurde om een ruzie te winnen.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W24",
+   "woord": "Pernicieus",
+   "betekenis": "Heel schadelijk. Het past vooral bij iets dat beetje bij beetje veel kwaad doet.",
+   "voorbeeldzin": "De gewoonte om elkaar ’s avonds over werk te appen had een pernicieuze invloed op de sfeer.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W25",
+   "woord": "Retoriek",
+   "betekenis": "De manier waarop iemand woorden gebruikt om anderen te overtuigen. Je hoort het ook over mooie praat waar weinig achter zit.",
+   "voorbeeldzin": "De retoriek over samenwerken klonk mooi, totdat iemand vroeg wie er zaterdag kwam helpen.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W26",
+   "woord": "Recalcitrant",
+   "betekenis": "Dwars doen, juist omdat iemand zegt wat je moet doen.",
+   "voorbeeldzin": "Hoe vaker de trainer zei dat hij rustig moest blijven, hoe recalcitranter hij werd.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W27",
+   "woord": "Lankmoedig",
+   "betekenis": "Lang geduldig en mild blijven, ook als iemand steeds dezelfde fout maakt.",
+   "voorbeeldzin": "De uitvoerder luisterde lankmoedig naar de derde uitleg over dezelfde vergeten bestelling.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W28",
+   "woord": "Pusillaniem",
+   "betekenis": "Zo bang om ergens voor uit te komen of een keuze te maken dat je wegduikt.",
+   "voorbeeldzin": "Ik vond het pusillaniem dat hij achteraf klaagde, terwijl hij in het overleg zijn mond hield.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W29",
+   "woord": "Insinuerend",
+   "betekenis": "Iets laten doorschemeren, vaak iets slechts over iemand, zonder het rechtstreeks te zeggen.",
+   "voorbeeldzin": "‘Toevallig dat jij als laatste aan die offerte hebt gezeten,’ zei hij op insinuerende toon.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W30",
+   "woord": "Onoorbaar",
+   "betekenis": "Zo ongepast dat het echt over de grens gaat.",
+   "voorbeeldzin": "Ze vond het onoorbaar dat hij tijdens de aanbesteding geheime prijzen met een leverancier deelde.",
+   "rol": "dagkaart"
+  },
+  {
+   "id": "W31",
+   "woord": "Diffuus",
+   "betekenis": "Verspreid of moeilijk op één plek aan te wijzen.",
+   "voorbeeldzin": "De pijn was diffuus. Ik voelde hem door mijn hele bovenbeen en kon geen zere plek aanwijzen.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W32",
+   "woord": "Rancuneus",
+   "betekenis": "Lang boos blijven omdat je vindt dat iemand je vroeger slecht heeft behandeld.",
+   "voorbeeldzin": "Zijn rancuneuze opmerkingen gingen weken later nog steeds over die ene wissel.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W33",
+   "woord": "Quasi",
+   "betekenis": "Alsof het echt zo is. In quasi-onverschillig doet iemand alsof het hem niets kan schelen.",
+   "voorbeeldzin": "Hij vroeg quasi-onverschillig wie er in de basis stond en bleef ondertussen op zijn telefoon kijken.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W34",
+   "woord": "Onbesuisd",
+   "betekenis": "Iets veel te wild of snel doen, zonder eerst na te denken over wat er kan gebeuren.",
+   "voorbeeldzin": "Hij sprintte zo onbesuisd op de bal af dat hij zijn eigen teamgenoot omverliep.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W35",
+   "woord": "Ongerijmd",
+   "betekenis": "Zo onlogisch dat de dingen die je hoort of ziet gewoon niet bij elkaar passen.",
+   "voorbeeldzin": "Het is ongerijmd om spoed te eisen en zelf twee weken te wachten met je akkoord.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W36",
+   "woord": "Reverentie",
+   "betekenis": "Zo veel respect voor iemand of iets dat je er bijna plechtig mee omgaat.",
+   "voorbeeldzin": "Hij haalde zijn nieuwe rugbyschoenen met zoveel reverentie uit de doos dat ik bijna mijn pet afzette.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W37",
+   "woord": "Commensurabel",
+   "betekenis": "Met dezelfde maat te meten. Daardoor kun je twee dingen eerlijker naast elkaar leggen.",
+   "voorbeeldzin": "Door bij beide projecten de CO₂-uitstoot per vierkante meter en over evenveel jaren te berekenen, maak je de cijfers commensurabel.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W38",
+   "woord": "Prozaïsch",
+   "betekenis": "Heel gewoon of praktisch, vaak terwijl je iets spannenders had verwacht.",
+   "voorbeeldzin": "Zijn mysterieuze verdwijning had een prozaïsche verklaring. Zijn telefoon was leeg en hij was naar huis gefietst.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W39",
+   "woord": "Misprijzend",
+   "betekenis": "Met een blik of toon die duidelijk maakt dat je iets slecht of ongepast vindt.",
+   "voorbeeldzin": "Ze keek misprijzend naar mijn modderige schoenen midden op de net gedweilde vloer.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W40",
+   "woord": "Precieus",
+   "betekenis": "Zo overdreven mooi of netjes verwoord dat het gemaakt klinkt. Het woord kan ook ‘kostbaar’ betekenen.",
+   "voorbeeldzin": "Zijn precieuze beschrijving van de kantinekoffie klonk alsof hij een dure wijn stond aan te prijzen.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W41",
+   "woord": "Onverkwikkelijk",
+   "betekenis": "Zo onaangenaam dat je er met een slecht gevoel op terugkijkt.",
+   "voorbeeldzin": "Een simpele vraag over de planning eindigde in een onverkwikkelijke ruzie.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W42",
+   "woord": "Schabouwelijk",
+   "betekenis": "Echt bar slecht.",
+   "voorbeeldzin": "Het veld lag er schabouwelijk bij. Na vijf minuten waren alle shirts bruin.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W43",
+   "woord": "Kies",
+   "betekenis": "Rekening houden met hoe gevoelig iets voor iemand is. Je kiest zorgvuldig wat je zegt en wanneer.",
+   "voorbeeldzin": "Ik vond het weinig kies om hem in de groepsapp te vragen waarom hij uit de selectie was gehaald.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W44",
+   "woord": "Notoir",
+   "betekenis": "Bij iedereen bekend om iets wat meestal vervelend of slecht is.",
+   "voorbeeldzin": "Hij is een notoire laatkomer. Zelfs zijn berichtjes dat hij later is, komen te laat.",
+   "rol": "reserve"
+  },
+  {
+   "id": "W45",
+   "woord": "Avoueren",
+   "betekenis": "Toegeven dat iets waar is, bijvoorbeeld dat je zelf een fout hebt gemaakt.",
+   "voorbeeldzin": "Ik moet avoueren dat ik pas bij mijn derde broodje doorhad dat de lunch voor de hele ploeg bedoeld was.",
+   "rol": "reserve"
+  }
+ ],
+ "proverbs": [
+  {
+   "id": "S01",
+   "spreekwoord": "Men moet de huid niet verkopen voordat de beer geschoten is.",
+   "betekenis": "Reken pas op wat iets je oplevert als je zeker weet dat het doorgaat.",
+   "situatie": "Je collega plant de monteurs al in terwijl de klant nog akkoord moet geven."
+  },
+  {
+   "id": "S02",
+   "spreekwoord": "Wie verre reizen doet, kan veel verhalen.",
+   "betekenis": "Als je veel reist, maak je van alles mee waar je later over kunt vertellen.",
+   "situatie": "Je vriend komt thuis van een weekend weg met drie sterke verhalen en zonder koffer."
+  },
+  {
+   "id": "S03",
+   "spreekwoord": "Met onwillige honden is het kwaad hazen vangen.",
+   "betekenis": "Samen iets voor elkaar krijgen is lastig als de mensen die je nodig hebt geen zin hebben om mee te doen.",
+   "situatie": "Je probeert een clubfeest te regelen, maar de rest van de commissie reageert nergens op."
+  },
+  {
+   "id": "S04",
+   "spreekwoord": "Wie zijn neus schendt, schendt zijn aangezicht.",
+   "betekenis": "Als je je eigen familie of groep te kijk zet, kan dat ook slecht voor jou uitpakken.",
+   "situatie": "Iemand maakt zijn teamgenoten belachelijk om indruk te maken en maakt zichzelf daarmee onsympathiek."
+  },
+  {
+   "id": "S05",
+   "spreekwoord": "Nieuwe bezems vegen schoon.",
+   "betekenis": "Iemand die net begint, pakt dingen vaak vol energie aan en verandert meteen van alles.",
+   "situatie": "De nieuwe teammanager ruimt in zijn eerste week de kleedkamer op en gooit de planning om."
+  },
+  {
+   "id": "S06",
+   "spreekwoord": "Wie appelen vaart, die appelen eet.",
+   "betekenis": "Wie iets beheert of verdeelt, kan er makkelijk zelf wat van nemen. Appelen varen betekent appels vervoeren.",
+   "situatie": "Degene die de vrijkaarten verdeelt, heeft de beste plekken voor zichzelf apart gehouden."
+  },
+  {
+   "id": "S07",
+   "spreekwoord": "Men vangt meer vliegen met stroop dan met azijn.",
+   "betekenis": "Met een vriendelijke vraag krijg je vaak meer gedaan dan met een boze toon.",
+   "situatie": "Je belt de leverancier rustig op en hij helpt je meteen aan een oplossing."
+  },
+  {
+   "id": "S08",
+   "spreekwoord": "Zoals de waard is, vertrouwt hij zijn gasten.",
+   "betekenis": "Mensen denken vaak dat anderen zich net zo gedragen als zijzelf.",
+   "situatie": "Degene die altijd de regels buigt, denkt dat iedereen bij de pubquiz vals speelt."
+  },
+  {
+   "id": "S09",
+   "spreekwoord": "Als niet komt tot iet, dan kent iet zichzelf niet.",
+   "betekenis": "Iemand die ineens geld, succes of macht krijgt, kan zich heel belangrijk gaan gedragen. Iet betekent hier iets.",
+   "situatie": "Een collega is net teamleider en praat al alsof het hele bedrijf van hem is."
+  },
+  {
+   "id": "S10",
+   "spreekwoord": "De kruik gaat zo lang te water tot zij barst.",
+   "betekenis": "Als je steeds hetzelfde risico neemt, gaat het vroeg of laat mis.",
+   "situatie": "Iemand vertrekt elke ochtend op het laatste moment. Op de dag van zijn sollicitatie gaan de treindeuren voor zijn neus dicht."
+  },
+  {
+   "id": "S11",
+   "spreekwoord": "Ieder meent zijn uil een valk te zijn.",
+   "betekenis": "Mensen vinden wat van henzelf is vaak beter of bijzonderder dan anderen het vinden.",
+   "situatie": "Iedereen noemt zijn eigen team de gevaarlijkste ploeg van het toernooi."
+  },
+  {
+   "id": "S12",
+   "spreekwoord": "Een zwaluw maakt nog geen zomer.",
+   "betekenis": "Eén goed teken is te weinig om te zeggen dat alles beter gaat.",
+   "situatie": "Na vijf nederlagen wint de ploeg één keer en iemand roept meteen dat de ommekeer begonnen is."
+  },
+  {
+   "id": "S13",
+   "spreekwoord": "Waar niets is, verliest de keizer zijn recht.",
+   "betekenis": "Als iemand echt niets heeft, kun je er ook niets halen, zelfs als je er recht op hebt.",
+   "situatie": "Een gestopte leverancier is je geld schuldig, maar er is niets meer over."
+  },
+  {
+   "id": "S14",
+   "spreekwoord": "Het bloed kruipt waar het niet gaan kan.",
+   "betekenis": "Iets wat diep in je zit, blijft vaak terugkomen, ook als je het een tijd opzijzet.",
+   "situatie": "Je zou dit seizoen alleen komen kijken, maar voor je het weet sta je weer op het veld."
+  },
+  {
+   "id": "S15",
+   "spreekwoord": "Men moet huilen met de wolven in het bos.",
+   "betekenis": "Soms doe je mee met de gewoontes van een groep om erbij te horen.",
+   "situatie": "Op je nieuwe werk doet iedereen mee aan een vrijdagborrel. Je gaat mee om de groep te leren kennen."
+  },
+  {
+   "id": "S16",
+   "spreekwoord": "Veel koks bederven de brij.",
+   "betekenis": "Als te veel mensen tegelijk bepalen hoe iets moet, kan het resultaat slechter worden.",
+   "situatie": "Vijf mensen herschrijven dezelfde Instagramtekst. Uiteindelijk wil niemand hem plaatsen."
+  },
+  {
+   "id": "S17",
+   "spreekwoord": "Wie het onderste uit de kan wil hebben, krijgt het lid op de neus.",
+   "betekenis": "Wie steeds méér probeert te krijgen, kan kwijtraken wat al binnen handbereik was. Lid betekent hier deksel.",
+   "situatie": "Iemand krijgt een prima bod op zijn fiets, vraagt steeds meer en ziet de koper afhaken."
+  },
+  {
+   "id": "S18",
+   "spreekwoord": "Het is kwaad kersen eten met grote heren.",
+   "betekenis": "Zaken doen met machtige mensen kan lastig zijn. Zij hebben vaak meer te zeggen over hoe het loopt.",
+   "situatie": "Een klein bedrijf krijgt ineens andere voorwaarden opgelegd door zijn grootste opdrachtgever."
+  },
+  {
+   "id": "S19",
+   "spreekwoord": "Als de hemel valt, hebben we allemaal een blauwe muts.",
+   "betekenis": "Je hoeft je plannen niet te laten bepalen door iets wat bijna zeker nooit gebeurt. Je zegt het vaak als grap.",
+   "situatie": "Iemand wil extra inkopen voor de baravond, voor het geval alle oud-leden tegelijk langskomen."
+  },
+  {
+   "id": "S20",
+   "spreekwoord": "Een goede buur is beter dan een verre vriend.",
+   "betekenis": "Als je snel hulp nodig hebt, heb je veel aan iemand dichtbij.",
+   "situatie": "Je staat buitengesloten in de regen en de buurvrouw laat je binnen."
+  },
+  {
+   "id": "S21",
+   "spreekwoord": "Beter één vogel in de hand dan tien in de lucht.",
+   "betekenis": "Iets kleins dat je zeker hebt, kan meer waard zijn dan iets groots dat je misschien krijgt.",
+   "situatie": "Je twijfelt of je een goed aanbod afslaat voor een betere kans die nog helemaal niet zeker is."
+  },
+  {
+   "id": "S22",
+   "spreekwoord": "Een schip op het strand is een baken in zee.",
+   "betekenis": "Als je ziet waar het bij een ander misging, kun je zelf op tijd oppassen.",
+   "situatie": "Op het vorige project bestelde iemand vanaf een oude tekening. Jouw team controleert nu vóór elke bestelling de versie."
+  },
+  {
+   "id": "S23",
+   "spreekwoord": "Aan de vruchten kent men de boom.",
+   "betekenis": "Aan wat iemand doet of voor elkaar krijgt, zie je wat je aan die persoon hebt.",
+   "situatie": "Degene die het minst zei over helpen, staat als eerste op de club."
+  },
+  {
+   "id": "S24",
+   "spreekwoord": "Waar gehakt wordt, vallen spaanders.",
+   "betekenis": "Als er veel werk wordt verzet, gaat er soms iets mis.",
+   "situatie": "Tijdens een grote verhuizing raken twee dozen zoek. De rest staat diezelfde dag op de juiste plek."
+  },
+  {
+   "id": "S25",
+   "spreekwoord": "Een mens lijdt dikwijls het meest door het lijden dat hij vreest.",
+   "betekenis": "Je kunt meer last hebben van je zorgen vooraf dan van wat er uiteindelijk gebeurt.",
+   "situatie": "Je ziet dagen tegen een gesprek op. De ander blijkt precies hetzelfde te willen bespreken."
+  },
+  {
+   "id": "S26",
+   "spreekwoord": "Het oog van de meester maakt het paard vet.",
+   "betekenis": "Werk gaat vaak beter als degene die ervoor verantwoordelijk is zelf regelmatig kijkt hoe het loopt.",
+   "situatie": "De uitvoerder loopt elke ochtend langs en merkt kleine problemen meteen op."
+  },
+  {
+   "id": "S27",
+   "spreekwoord": "Als de vos de passie preekt, boer, pas op je ganzen.",
+   "betekenis": "Pas op als iemand opeens heel braaf of behulpzaam klinkt en er zelf voordeel bij heeft.",
+   "situatie": "De collega die altijd onder zijn bardienst uit probeert te komen, biedt aan om het rooster te maken."
+  },
+  {
+   "id": "S28",
+   "spreekwoord": "De morgenstond heeft goud in de mond.",
+   "betekenis": "Als je vroeg begint, kun je vaak veel doen voordat de rest van de dag druk wordt.",
+   "situatie": "Je rondt die lastige taak af vóór om negen uur het eerste overleg begint."
+  },
+  {
+   "id": "S29",
+   "spreekwoord": "Wie boter op zijn hoofd heeft, moet uit de zon blijven.",
+   "betekenis": "Als je zelf iets verkeerd hebt gedaan, kun je beter oppassen met kritiek op anderen.",
+   "situatie": "Iemand klaagt over gemiste bardiensten en blijkt zelf vorige week afwezig te zijn geweest."
+  },
+  {
+   "id": "S30",
+   "spreekwoord": "Het zijn sterke benen die de weelde kunnen dragen.",
+   "betekenis": "Het vraagt karakter om verstandig te blijven als je ineens veel geld, succes of aandacht krijgt.",
+   "situatie": "Na twee goede wedstrijden doet een speler alsof de club om hem draait."
+  },
+  {
+   "id": "S31",
+   "spreekwoord": "Men moet geen oude schoenen weggooien voordat men nieuwe heeft.",
+   "betekenis": "Houd wat je hebt totdat je zeker weet dat je iets anders hebt.",
+   "situatie": "Je zegt je huur pas op als het contract voor je nieuwe woning getekend is."
+  },
+  {
+   "id": "S32",
+   "spreekwoord": "Kwade geruchten hebben vleugels.",
+   "betekenis": "Een slecht verhaal over iemand gaat vaak snel rond.",
+   "situatie": "Je hoort op de club dat iemand stopt. Een uur later vraagt het halve team hem waarom."
+  },
+  {
+   "id": "S33",
+   "spreekwoord": "Een rollende steen vergaart geen mos.",
+   "betekenis": "Als je steeds verder trekt of iets nieuws begint, bouw je op één plek weinig op.",
+   "situatie": "Een vriend wisselt om de paar maanden van sportclub en voelt zich nergens echt bij het team horen."
+  },
+  {
+   "id": "S34",
+   "spreekwoord": "De boog kan niet altijd gespannen zijn.",
+   "betekenis": "Je kunt niet steeds hard werken of alles geven. Soms heb je rust nodig.",
+   "situatie": "Na een volle werkweek en drie trainingen besluit je zaterdagavond thuis te blijven."
+  },
+  {
+   "id": "S35",
+   "spreekwoord": "De gelegenheid maakt de dief.",
+   "betekenis": "Als het makkelijk is om iets te pakken, kunnen mensen in de verleiding komen het te doen.",
+   "situatie": "De koekjes staan open in de keuken en zijn al half op vóór de vergadering."
+  },
+  {
+   "id": "S36",
+   "spreekwoord": "Als de wijn is in de man, is de wijsheid in de kan.",
+   "betekenis": "Als je te veel drinkt, zeg of doe je sneller iets waar je later spijt van krijgt.",
+   "situatie": "Na een paar biertjes beloof je de hele ploeg om zeven uur ontbijt te maken."
+  },
+  {
+   "id": "S37",
+   "spreekwoord": "Als de vos zijn staart verliest, wil hij dat alle vossen staartloos zijn.",
+   "betekenis": "Wie iets kwijtraakt, kan proberen anderen ervan te overtuigen dat het beter is zonder.",
+   "situatie": "Nadat zijn parkeerplek is afgepakt, vindt je collega ineens dat niemand een eigen plek nodig heeft."
+  },
+  {
+   "id": "S38",
+   "spreekwoord": "De vos verliest wel zijn haren, maar niet zijn streken.",
+   "betekenis": "Iemand kan ouder worden en toch dezelfde oude trucjes blijven gebruiken.",
+   "situatie": "Een oud-teamgenoot weet na tien jaar nog precies wanneer hij weg moet om de afwas te missen."
+  },
+  {
+   "id": "S39",
+   "spreekwoord": "Kleine potjes hebben grote oren.",
+   "betekenis": "Kinderen horen vaak meer van een gesprek dan volwassenen denken.",
+   "situatie": "Je fluistert over een verrassing. Even later vraagt je neefje hoe laat het feest begint."
+  },
+  {
+   "id": "S40",
+   "spreekwoord": "Wie met pek omgaat, wordt ermee besmet.",
+   "betekenis": "Als je veel omgaat met mensen die zich slecht gedragen, kun je hun gedrag overnemen of erop worden aangekeken. Pek is een zwarte, kleverige stof.",
+   "situatie": "Een collega trekt op met mensen die de regels omzeilen en doet het na een paar weken zelf."
+  },
+  {
+   "id": "S41",
+   "spreekwoord": "Een schip zonder roer is een speelbal van de golven.",
+   "betekenis": "Zonder iemand die richting geeft, ga je makkelijk alle kanten op.",
+   "situatie": "Iedereen heeft ideeën voor de clubdag, maar na drie vergaderingen is er nog steeds geen programma."
+  },
+  {
+   "id": "S42",
+   "spreekwoord": "Een oude rat loopt niet in de val.",
+   "betekenis": "Iemand met veel ervaring trapt minder snel in een bekende truc.",
+   "situatie": "De ervaren werkvoorbereider vraagt bij een opvallend lage prijs meteen wat er buiten de offerte valt."
+  },
+  {
+   "id": "S43",
+   "spreekwoord": "Met lege handen is het kwaad aalmoezen geven.",
+   "betekenis": "Je kunt moeilijk iets weggeven als je zelf weinig hebt. Een aalmoes geef je aan iemand die hulp nodig heeft.",
+   "situatie": "Een team wil bijdragen aan het clubfeest, maar heeft net de laatste euro uit de teampot uitgegeven."
+  },
+  {
+   "id": "S44",
+   "spreekwoord": "De bomen groeien niet tot in de hemel.",
+   "betekenis": "Groei en succes kunnen een tijd doorgaan, maar ergens houdt het op.",
+   "situatie": "De club krijgt al jaren meer leden, terwijl de velden inmiddels vol zitten."
+  },
+  {
+   "id": "S45",
+   "spreekwoord": "Waar de dijk het laagst is, loopt het water het eerst over.",
+   "betekenis": "Als er druk op iets komt te staan, gaat het vaak het eerst mis op de zwakste plek.",
+   "situatie": "Op de drukste bouwdag willen alle leveranciers tegelijk op de enige losplek staan."
+  }
+ ],
+ "puzzles": [
+  {
+   "id": "P01",
+   "dag": 1,
+   "raadsel": "Ik reis van mond tot mond. Hoe langer de reis duurt, hoe groter ik word en hoe minder mensen mijn vertrekpunt kennen.",
+   "antwoord": "gerucht",
+   "letters": 7,
+   "hintposities": [
+    1,
+    5
+   ],
+   "uitleg": "Het verhaal verandert bij het doorvertellen en niemand weet meer wie ermee begon."
+  },
+  {
+   "id": "P02",
+   "dag": 2,
+   "raadsel": "Hoe meer ik drink, hoe minder er op tafel achterblijft. Knijp me en ik geef het allemaal terug.",
+   "antwoord": "spons",
+   "letters": 5,
+   "hintposities": [
+    2
+   ],
+   "uitleg": "Een spons neemt gemorst water op. Als je hem uitknijpt, komt het water eruit."
+  },
+  {
+   "id": "P03",
+   "dag": 3,
+   "raadsel": "Mijn twee rijen tanden hebben geen mond. Eén klein dingetje ertussen laat ze in elkaar grijpen.",
+   "antwoord": "rits",
+   "letters": 4,
+   "hintposities": [
+    3
+   ],
+   "uitleg": "De schuiver van een rits duwt de tandjes in elkaar."
+  },
+  {
+   "id": "P04",
+   "dag": 4,
+   "raadsel": "Bij laagstaande zon ben ik groter dan jij. Zodra het licht uitgaat, raak je me kwijt.",
+   "antwoord": "schaduw",
+   "letters": 7,
+   "hintposities": [
+    2,
+    6
+   ],
+   "uitleg": "Je lichaam houdt licht tegen. Bij laagstaande zon wordt je schaduw lang."
+  },
+  {
+   "id": "P05",
+   "dag": 5,
+   "raadsel": "Voor een weekje weg stop je me vol. Op het vliegveld ga ik rondjes draaien tot jij me herkent.",
+   "antwoord": "koffer",
+   "letters": 6,
+   "hintposities": [
+    1,
+    5
+   ],
+   "uitleg": "Een ingecheckte koffer komt na de vlucht op de bagageband terecht."
+  },
+  {
+   "id": "P06",
+   "dag": 6,
+   "raadsel": "Ik begin met een scherpe punt. Hoe meer ik schrijf en hoe vaker je me slijpt, hoe korter ik word.",
+   "antwoord": "potlood",
+   "letters": 7,
+   "hintposities": [
+    2,
+    6
+   ],
+   "uitleg": "Bij het schrijven slijt de punt. Met een puntenslijper haal je telkens wat van het potlood af."
+  },
+  {
+   "id": "P07",
+   "dag": 7,
+   "raadsel": "Ik doe elke beweging meteen na. Toch kan ik je geen hand geven, ook als we pal tegenover elkaar staan.",
+   "antwoord": "spiegel",
+   "letters": 7,
+   "hintposities": [
+    1,
+    6
+   ],
+   "uitleg": "Je spiegelbeeld beweegt met je mee, maar zit achter een glad oppervlak."
+  },
+  {
+   "id": "P08",
+   "dag": 8,
+   "raadsel": "Elke avond bepaal jij wanneer ik mijn mond open mag doen. Elke ochtend hoop je dat ik me niet aan de afspraak houd.",
+   "antwoord": "wekker",
+   "letters": 6,
+   "hintposities": [
+    2,
+    5
+   ],
+   "uitleg": "Je stelt de wekker zelf in en wilt hem ’s ochtends vaak nog even uitzetten."
+  },
+  {
+   "id": "P09",
+   "dag": 9,
+   "raadsel": "Zodra het begint te druppelen, span ik mijn dak boven je hoofd. Eén windvlaag en mijn dak wijst omhoog.",
+   "antwoord": "paraplu",
+   "letters": 7,
+   "hintposities": [
+    1,
+    6
+   ],
+   "uitleg": "Een paraplu houdt regen tegen en kan door harde wind binnenstebuiten klappen."
+  },
+  {
+   "id": "P10",
+   "dag": 10,
+   "raadsel": "Ik geef je licht en betaal daarvoor met mijn lengte. Blaas één keer en mijn vlam is weg.",
+   "antwoord": "kaars",
+   "letters": 5,
+   "hintposities": [
+    5
+   ],
+   "uitleg": "Een brandende kaars wordt korter. Met een blaasje doof je de vlam."
+  },
+  {
+   "id": "P11",
+   "dag": 11,
+   "raadsel": "Mijn tanden passen op één mond. Draai me daarin om en je mag naar binnen.",
+   "antwoord": "sleutel",
+   "letters": 7,
+   "hintposities": [
+    1,
+    6
+   ],
+   "uitleg": "De tanden van een sleutel passen in het slot en laten je de deur openen."
+  },
+  {
+   "id": "P12",
+   "dag": 12,
+   "raadsel": "Ik kopieer mezelf zonder printer. Een beetje inkt en een ferme duw zijn genoeg.",
+   "antwoord": "stempel",
+   "letters": 7,
+   "hintposities": [
+    2,
+    6
+   ],
+   "uitleg": "Een stempel laat met inkt steeds dezelfde afdruk achter."
+  },
+  {
+   "id": "P13",
+   "dag": 13,
+   "raadsel": "Ik hou twee kanten van je jas bij elkaar. Om dat te kunnen, moet ik eerst door een gat.",
+   "antwoord": "knoop",
+   "letters": 5,
+   "hintposities": [
+    3
+   ],
+   "uitleg": "Een jasknoop gaat door het knoopsgat en houdt de jas dicht."
+  },
+  {
+   "id": "P14",
+   "dag": 14,
+   "raadsel": "Ik spring in je glas om je drankje koud te maken. Tegen de tijd dat jij klaar bent, ben ik soms helemaal verdwenen.",
+   "antwoord": "ijsblokje",
+   "letters": 9,
+   "hintposities": [
+    2,
+    8
+   ],
+   "uitleg": "Een ijsblokje smelt en wordt water in je drankje."
+  },
+  {
+   "id": "P15",
+   "dag": 15,
+   "raadsel": "Ik ga dicht voor ik vertrek en open als ik aankom. Mijn buik verraadt met een venster soms waarheen ik moet.",
+   "antwoord": "envelop",
+   "letters": 7,
+   "hintposities": [
+    1,
+    6
+   ],
+   "uitleg": "Een envelop draagt een brief. Door het venster kan de ontvanger op de brief zichtbaar zijn."
+  },
+  {
+   "id": "P16",
+   "dag": 16,
+   "raadsel": "Om je binnen te laten moet ik de juiste zijn. Zodra iemand over je schouder meekijkt, kun je me beter vervangen.",
+   "antwoord": "wachtwoord",
+   "letters": 10,
+   "hintposities": [
+    2,
+    9
+   ],
+   "uitleg": "Een wachtwoord geeft toegang. Als iemand het kent, is het slim een nieuw wachtwoord te kiezen."
+  },
+  {
+   "id": "P17",
+   "dag": 17,
+   "raadsel": "Je mag me alle kanten op draaien. Eén stukje van me blijft koppig het noorden zoeken.",
+   "antwoord": "kompas",
+   "letters": 6,
+   "hintposities": [
+    1,
+    5
+   ],
+   "uitleg": "De naald van een kompas wijst ongeveer naar het magnetische noorden."
+  },
+  {
+   "id": "P18",
+   "dag": 18,
+   "raadsel": "Ik hang aan een draadje in warm water. Hoe langer je me laat bungelen, hoe donkerder het water wordt.",
+   "antwoord": "theezakje",
+   "letters": 9,
+   "hintposities": [
+    2,
+    8
+   ],
+   "uitleg": "De thee geeft kleur en smaak af aan het warme water."
+  },
+  {
+   "id": "P19",
+   "dag": 19,
+   "raadsel": "Ik zit op je neus en hang aan je oren. Dankzij mij staat de kleine letter op het bord weer stil genoeg om te lezen.",
+   "antwoord": "bril",
+   "letters": 4,
+   "hintposities": [
+    3
+   ],
+   "uitleg": "Met de juiste glazen zie je scherpe letters op het bord."
+  },
+  {
+   "id": "P20",
+   "dag": 20,
+   "raadsel": "Op mijn vakjes kun je zien wie er zaterdag staat. Ruil jij met een ander, dan moet ik mee veranderen.",
+   "antwoord": "rooster",
+   "letters": 7,
+   "hintposities": [
+    2,
+    6
+   ],
+   "uitleg": "In een rooster staat wie wanneer werkt of aan de beurt is."
+  },
+  {
+   "id": "P21",
+   "dag": 21,
+   "raadsel": "Ik ben klein genoeg voor aan een koord. Eén ademstoot in mijn mond en dertig spelers horen dat ze moeten stoppen.",
+   "antwoord": "fluitje",
+   "letters": 7,
+   "hintposities": [
+    1,
+    6
+   ],
+   "uitleg": "Met een fluitje geeft een rugbyscheidsrechter een hoorbaar signaal."
+  },
+  {
+   "id": "P22",
+   "dag": 22,
+   "raadsel": "Ik word gekneed, krijg rust en groei dan zonder dat iemand er iets bij giet. Pas daarna mag ik de oven in.",
+   "antwoord": "deeg",
+   "letters": 4,
+   "hintposities": [
+    2
+   ],
+   "uitleg": "Brooddeeg met gist rijst tijdens het rusten."
+  },
+  {
+   "id": "P23",
+   "dag": 23,
+   "raadsel": "Ik lees geen letter en weet toch precies waar jij gisteren gestopt bent. Ik blijf tussen twee bladzijden slapen.",
+   "antwoord": "bladwijzer",
+   "letters": 10,
+   "hintposities": [
+    1,
+    9
+   ],
+   "uitleg": "Een bladwijzer markeert waar je was gebleven in een boek."
+  },
+  {
+   "id": "P24",
+   "dag": 24,
+   "raadsel": "Ik maak je handen schoon door zelf steeds kleiner te worden. Laat me nat liggen en ik plak aan mijn schoteltje.",
+   "antwoord": "zeep",
+   "letters": 4,
+   "hintposities": [
+    4
+   ],
+   "uitleg": "Een stuk zeep slijt door gebruik en kan nat aan het zeepschaaltje blijven plakken."
+  },
+  {
+   "id": "P25",
+   "dag": 25,
+   "raadsel": "Ik breng je naar een andere verdieping en blijf zelf staan. Bij elke stap verander jij van hoogte.",
+   "antwoord": "trap",
+   "letters": 4,
+   "hintposities": [
+    1
+   ],
+   "uitleg": "De treden van een trap brengen je omhoog of omlaag."
+  },
+  {
+   "id": "P26",
+   "dag": 26,
+   "raadsel": "Ik kan in de modder achterblijven zonder dat je me draagt. Wie me volgt, weet welke kant jij op ging.",
+   "antwoord": "spoor",
+   "letters": 5,
+   "hintposities": [
+    1
+   ],
+   "uitleg": "Een afdruk in de modder kan laten zien waar iemand naartoe liep."
+  },
+  {
+   "id": "P27",
+   "dag": 27,
+   "raadsel": "Ik slaap op de hals van een fles. Draai mij los en de inhoud kan ontsnappen.",
+   "antwoord": "dop",
+   "letters": 3,
+   "hintposities": [
+    3
+   ],
+   "uitleg": "Een schroefdop sluit de fles af en laat los als je hem opendraait."
+  },
+  {
+   "id": "P28",
+   "dag": 28,
+   "raadsel": "Met mij houd je je schoen aan. Raak ik los, dan kan jouw andere voet je ineens laten struikelen.",
+   "antwoord": "veter",
+   "letters": 5,
+   "hintposities": [
+    3
+   ],
+   "uitleg": "Als je op je losse veter stapt, kun je struikelen."
+  },
+  {
+   "id": "P29",
+   "dag": 29,
+   "raadsel": "Ik heb heel wat landen tussen mijn kaften. Sla me open en je springt in één beweging van Nederland naar Spanje.",
+   "antwoord": "atlas",
+   "letters": 5,
+   "hintposities": [
+    4
+   ],
+   "uitleg": "Een atlas is een boek met kaarten. Je bladert makkelijk van het ene land naar het andere."
+  },
+  {
+   "id": "P30",
+   "dag": 30,
+   "raadsel": "Bij mij gaat het lampje aan zodra je de deur opent. Wie te lang blijft twijfelen, laat de kou ontsnappen.",
+   "antwoord": "koelkast",
+   "letters": 8,
+   "hintposities": [
+    2,
+    7
+   ],
+   "uitleg": "De koelkast bewaart etenswaren koud. De lamp brandt als je de deur opent."
+  }
+ ]
+}
