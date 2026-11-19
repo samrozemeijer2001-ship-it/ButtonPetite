@@ -463,7 +463,7 @@ ul { list-style: none; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
 
-/* Long app names (Lichaamschemie) must fit the hero */
+/* Long app names (like Lichaamschemie was) must fit the hero */
 .apphero__in > .in { min-width: 0; }
 .apphero__name--long { font-size: clamp(40px, 7.4vw, 104px); overflow-wrap: anywhere; }
 .card__top { min-width: 0; }

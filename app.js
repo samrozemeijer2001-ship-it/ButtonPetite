@@ -204,11 +204,11 @@ const APPS = [
     }
   },
   {
-    id: "lichaamschemie",
-    name: "Lichaamschemie",
+    id: "stoffig",
+    name: "Stoffig",
     pair: "black",
     status: "beta",
-    icon: "assets/icons/lichaamschemie.png",
+    icon: "assets/icons/stoffig.png",
     tagline: "What is that stuff in your body actually doing?",
     text: "A pocket encyclopedia of the stuff in your body, in plain language. Adrenaline, cortisol, dopamine, oxytocin and more: where it comes from, what it does and why your heart is already pounding before the kick-off. The app is in Dutch.",
     goal: "You hear about dopamine, cortisol and adrenaline all the time, usually in one sentence with the word \"hack\". I wanted to know what they really do, without needing a biology degree or reading ten tabs of half-truths. So I put it in one place: short, clear, with sources, and with a smiley on every page. Still growing, so new pages keep coming.",
@@ -220,11 +220,11 @@ const APPS = [
       web: ""                 // PLACEHOLDER: paste the github.io link of the app
     },
     screens: [
-      "assets/screens/lichaamschemie-1.png",
-      "assets/screens/lichaamschemie-2.png",
-      "assets/screens/lichaamschemie-3.png",
-      "assets/screens/lichaamschemie-4.png",
-      "assets/screens/lichaamschemie-5.png"
+      "assets/screens/stoffig-1.png",
+      "assets/screens/stoffig-2.png",
+      "assets/screens/stoffig-3.png",
+      "assets/screens/stoffig-4.png",
+      "assets/screens/stoffig-5.png"
     ],
     cando: [
       { title: "Read about 8 substances", text: "Adrenaline, noradrenaline, acetylcholine, cortisol, dopamine, histamine, adenosine and oxytocin. Each one starts with a real-life question and explains, step by step, what happens." },
@@ -236,14 +236,14 @@ const APPS = [
       { title: "Works offline", text: "Open it once and it keeps working without internet. Put it on your home screen and it feels like a real app." }
     ],
     faq: [
-      { q: "Is the app in English?", a: "No, Lichaamschemie is in Dutch for now." },
+      { q: "Is the app in English?", a: "No, Stoffig is in Dutch for now." },
       { q: "How do I put it on my home screen?", a: "iPhone: open the link in Safari, tap the share button and choose Add to Home Screen. Android: open the link in Chrome, tap the menu and choose Install app." },
       { q: "Is this medical advice?", a: "No. It explains how things work in a normal body, in plain language. If you have complaints or questions about your health, ask a doctor." },
       { q: "Is it finished?", a: "Not yet, it's a beta. More substances and themes are on the way. See a mistake or miss a substance? Send me a message." },
       { q: "Is it free?", a: "Yes." }
     ],
     privacy: {
-      summary: "Lichaamschemie keeps everything on your phone. No account, no tracking, nothing is sent to me.",
+      summary: "Stoffig keeps everything on your phone. No account, no tracking, nothing is sent to me.",
       points: [
         "What you read and what you save is stored only in your browser on your own device.",
         "No account, no analytics, no ads and no tracking.",
